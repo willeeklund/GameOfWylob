@@ -1,0 +1,22 @@
+<template name="messages">
+  {{#if selected}}
+    <h3>Messages for {{selected_name}}</h3>
+    {{#each messages}}
+      {{> message}}
+    {{/each}}
+  {{/if}}
+  {{#unless selected}}
+    <h3>Messages</h3>
+    <div class="badge badge-info">Select name in the list.</div>
+  {{/unless}}
+</template>
+
+<template name="message">
+  <div class="message alert alert-{{ statusClass }}">
+    <h4>{{ msg }}</h4>
+    <div class="timeago" abbr="{{ timestamp }}">{{ timestamp }}</div>
+    <div class="progress">
+      <div class="bar bar-{{ statusClass }}" style="width: {{ progress }}%;"></div>
+    </div>
+  </div>
+</template>

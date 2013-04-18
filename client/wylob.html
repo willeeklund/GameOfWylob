@@ -1,0 +1,132 @@
+<head>
+  <title>WYLOB</title>
+  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row-fluid">
+      <div class="span2">
+        {{> navbar}}
+      </div>
+      <div class="span6">
+      {{> wylob}}
+      </div>
+      <div class="span4">
+        {{loginButtons}}
+        {{> messages}}
+      </div>
+    </div>
+  </div>
+</body>
+
+<template name="navbar">
+<ul class="nav nav-pills nav-stacked">
+  <li class="nav-header">Menu</li>
+  {{#each tabs}}
+  <li class="{{ isSelected }}">
+    <a href="{{ link }}">{{ text }}</a>
+  </li>
+  {{/each}}
+  <li class="nav-header">Extra</li>
+  <li class="spaceify">
+    <a href="#">Spaceify</a>
+  </li>
+</ul>
+</template>
+
+<template name="wylob">
+  <h1>WYLOB gamification</h1>
+  <br />
+
+  {{#if page_add }}
+    <h2>Add Wylob</h2>
+    {{> add_wylob_form}}
+  {{/if}}
+
+  {{#if page_highscore}}
+    <h2></h2>
+    <div class="highscore_list">
+      {{#each netlighters}}
+        {{> netlighter}}
+      {{/each}}
+    </div>
+    <button id="unselect" class="btn">Unselect</button><br />
+    <i class="toggle_add_netlighter_form icon-plus-sign"></i>
+    <form class="add_netlighter_form" name="add_netlighter_form" id="add_netlighter_form">
+      <input type="text" class="span4" name="name" value="" placeholder="Name">
+      <input type="submit" id="submit" value="Add Netlighter" class="btn btn-primary">
+    </form>
+  {{/if}}
+
+  {{#if page_my_page}}
+    <h3>List of WYLOBs</h3>
+    <table class="wylob_list">
+      <tr>
+        <th class="span6">Name</th>
+        <th class="span2">Step</th>
+        <th class="span1">Status</th>
+        <th class="span2">Netlighter</th>
+        <th class="span1"></th>
+      </tr>
+      {{#each wylob_list_current_netlighter}}
+        {{> wylob_person}}
+      {{/each}}
+    </table>
+    {{#unless selected_name}}
+    <div class="none">Click a netlighter in the Highscore list to select</div>
+    {{/unless}}
+  {{/if}}
+
+  {{#if page_all_wylobs}}
+    <h2>All WYLOBs in progress</h2>
+    <table class="wylob_list">
+      <tr>
+        <th class="span6">Name</th>
+        <th class="span2">Step</th>
+        <th class="span1">Status</th>
+        <th class="span2">Netlighter</th>
+        <th class="span1"></th>
+      </tr>
+    {{#each wylob_list}}
+      {{> wylob_person}}
+    {{/each}}
+    </table>
+  {{/if}}
+</template>
+
+<template name="netlighter">
+  <div class="player {{selected}}">
+    <span class="name">{{name}}</span>
+    <span class="score">{{score}}</span>
+    <span class="delete"><button class="close">&times;</button></span>
+  </div>
+</template>
+
+<template name="wylob_person">
+  <tr class="wylob_person">
+    <td class="name">{{ name }}</td>
+    <td class="step">{{ step }}</td>
+    <td class="status">{{ status }}</td>
+    <td class="netlighter">{{ netlighter }}</td>
+    <td class="delete"><button class="close">&times;</button></td>
+  </tr>
+</template>
+
+<template name="add_wylob_form">
+  <span class="">Add WYLOB for <span class="details">{{ selected_name }}</span></span>
+  <form class="add_wylob_form" name="add_wylob_form" id="add_wylob_form">
+    <input type="text" name="name" value="" placeholder="Name of Wylob">
+    <input type="submit" id="submit" value="Add the wylob" class="btn btn-primary">
+  </form>
+
+  {{#if currentUser}}
+    <ul id="fb_friends_list">
+    </ul>
+    {{ fb_friends }}
+  {{/if}}
+  {{#unless currentUser}}
+    NOT Logged in!
+  {{/unless}}
+</template>
+
