@@ -7,36 +7,42 @@ Points = new Meteor.Collection("points");
 /**
  * Navbar & Routing
  */
-var navbarItems = [{link: "add", text: "Add Wylob"},
-  {link: "my_page", text: "My Wylobs"},
-  {link: "highscore", text: "Highscores"},
-  {link: "all_wylobs", text: "All Wylobs"}];
+var navbarItems = [{link: "add", text: "Add", icon:"plus", startActive: true},
+  {link: "feed", text: "Feed", icon: "info"},
+  {link: "highscore", text: "Scores", icon: "grid"}];
 Template.navbar.tabs = function () {
   return navbarItems;
 };
 Template.navbar.isSelected = function(){
-  return Session.equals('route', this.link) ? 'active' : '';
+  //console.log("isSelected() for ", this)
+  //return Session.equals('route', this.link) ? 'ui-btn-active' : '';
+  return this.startActive ? 'ui-btn-active' : '';
 };
 Template.navbar.events = {
-  'click a': function (ev) {
-    ev.preventDefault();
-    Session.set('route', this.link);
+  'click li': function (ev) {
+    //console.log("click on ", ev.target)
+    console.log("prev page:", Session.get('page'), "will become", this.link)
+    Session.set('page', this.link);
+    console.log("new page:", Session.get('page'))
   },
   'click .spaceify': function (ev) {
-    $("head").append('<link rel="stylesheet" type="text/css" href="geo-bootstrap/css/geo-bootstrap.css">');
+    //$("head").append('<link rel="stylesheet" type="text/css" href="geo-bootstrap/css/geo-bootstrap.css">');
   }
 }
 // Set simple routing
-if (location.pathname != "/") {
-  var path = location.pathname.substr(1);
-  Session.set('route', path);
-} else {
-  Session.set('route', 'add');
-}
+//if (location.pathname != "/") {
+//  var path = location.pathname.substr(1);
+//  Session.set('route', path);
+//} else {
+  Session.set('page', 'add');
+//}
 
 /**
  * Main template
  */
+Template.page_add.page_inactive = function () {
+  return !Session.equals('page', 'add');
+}
 Template.wylob.netlighters = function () {
   return Netlighters.find({}, {sort: {score: -1, name: 1}});
 };

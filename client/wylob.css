@@ -71,3 +71,7 @@ form input[type=text] {
 .add_netlighter_form {
     display: none;
 }
+
+.is_hidden {
+    display: none;
+}

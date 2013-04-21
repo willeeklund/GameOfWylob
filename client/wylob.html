@@ -1,9 +1,69 @@
+
 <head>
-  <title>WYLOB</title>
-  <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <title>Game Of WYLOB</title>
+  <link rel="stylesheet" href="https://s3.amazonaws.com/codiqa-cdn/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  <script src="/js/jquery-1.7.2.js"></script>
+  <script src="/js/jquery.mobile-1.2.0.min.js"></script>
 </head>
 
 <body>
+    <div data-role="page" id="page1">
+    <!-- Home -->
+        <div data-theme="d" data-role="header">
+            <h3>
+                Game of Wylob
+            </h3>
+            {{> navbar}}
+        </div>
+        <div data-role="content">
+            {{> page_add}}
+        </div>
+    </div>
+</body>
+
+<template name="navbar">
+  <div id="navbar" data-role="navbar" data-iconpos="left">
+      <ul class="ui-grid-a">
+        {{#each tabs}}
+          <li class="">
+              <a href="#page1" data-page="{{ link }}" data-transition="fade" data-theme="c" data-icon="{{ icon }}" class="{{ isSelected }}">
+                  {{ text }}
+              </a>
+          </li>
+        {{/each}}
+      </ul>
+  </div>
+</template>
+
+<template name="page_add">
+  <div id="page_add" class="page">
+    <div data-role="fieldcontain">
+      <select id="source" name="source" data-theme="b">
+        <option value="linkedin-url">
+          LinkedIn URL
+        </option>
+        <option value="facebook">
+          Facebook friends
+        </option>
+      </select>
+    </div>
+    <div data-role="fieldcontain">
+      <label for="linkedin-url">LinkedIn URL</label>
+      <input name="" id="linkedin-url" placeholder="Public LinkedIn URL" value="" type="url" />
+    </div>
+    <div data-role="fieldcontain" id="comment">
+      <label for="comment">Comment</label>
+      <textarea name="comment" id="comment" placeholder="Great person!"></textarea>
+    </div>
+    <input id="submit_wylob" type="submit" data-theme="b" data-icon="star" data-iconpos="left" value="Send WYLOB">
+  </div>
+</template>
+
+<template name="desktop-body">
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span2">
@@ -18,9 +78,9 @@
       </div>
     </div>
   </div>
-</body>
+</template>
 
-<template name="navbar">
+<template name="navbar2">
 <ul class="nav nav-pills nav-stacked">
   <li class="nav-header">Menu</li>
   {{#each tabs}}
