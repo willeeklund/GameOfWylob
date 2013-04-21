@@ -7,10 +7,11 @@ Points = new Meteor.Collection("points");
 /**
  * Navbar & Routing
  */
-var navbarItems = [{link: "add", text: "Add Wylob"},
-  {link: "my_page", text: "My Wylobs"},
+var navbarItems = [{link: "add", text: "Add Wylob", active: "active"},
+  {link: "feed", text: "Newsfeed"},
   {link: "highscore", text: "Highscores"},
-  {link: "all_wylobs", text: "All Wylobs"}];
+//  {link: "all_wylobs", text: "All Wylobs"}
+];
 Template.navbar.tabs = function () {
   return navbarItems;
 };
