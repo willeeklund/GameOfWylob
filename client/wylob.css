@@ -72,6 +72,15 @@ form input[type=text] {
     display: none;
 }
 
+.new_wylob {
+    height: 170px;
+}
+
+.spinner {
+    top:50px;
+    left:100px;
+}
+
 .message {
     position: relative;
     padding: 10px;
@@ -97,4 +106,8 @@ form input[type=text] {
 .message .tipped_by {
     font-size: 16px;
     min-height: 45px;
+}
+
+input[name=name] {
+    width: 300px;
 }
