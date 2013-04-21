@@ -93,3 +93,7 @@ form input[type=text] {
     right: 10px;
     top: 10px;
 }
+
+input[name=name] {
+    width: 300px;
+}
