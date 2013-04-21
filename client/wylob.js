@@ -1,5 +1,6 @@
 
 Netlighters = new Meteor.Collection("netlighters");
+TalentSearchers = new Meteor.Collection("talent_searchers");
 Wylobs = new Meteor.Collection("wylobs");
 Messages = new Meteor.Collection("messages");
 Points = new Meteor.Collection("points");
@@ -166,7 +167,7 @@ Template.add_wylob_form.events = {
     $(".alert").html("<b>Congratulations </b>Added Wylob: '{0}'".format(name));
     $(".alert").toggleClass('hide');
   },
-  'blur input[name=name]' : function() {
+  'keyup input[name=name]' : function() {
       var form = $("#add_wylob_form"),
           url = form.find("[name=name]").val();
 
@@ -207,9 +208,8 @@ var GetEmbedlyJSONObject = function (url, callback) {
  */
 Template.messages.selected_name = function () {
   var netlighter = Netlighters.findOne(Session.get("selected_player"));
-  console.log("messages.selected_name():", netlighter);
   if (netlighter) {
-    return netlighter.name
+    return netlighter.name;
   }
 };
 Template.messages.selected = function () {
@@ -217,7 +217,16 @@ Template.messages.selected = function () {
   return netlighter && netlighter.name;
 };
 Template.messages.messages = function () {
-  return Messages.find({netlighter_id: Session.get("selected_player")}, {sort: {timestamp: -1}, limit: 6});
+  var messages = [],
+      all_messages = Messages.find({}, {sort: {timestamp: -1}, limit: 20});
+  all_messages.forEach(function (item) {
+    if (item.netlighter_id === Session.get("selected_player")) {
+      messages.push(item);
+    } else if (item.statusClass !== "danger") {
+      messages.push(item);
+    }
+  });
+  return messages;
 };
 
 /**
@@ -233,24 +242,25 @@ Template.message.timestamp = function () {
   return dateFormat(d, "dddd, mmmm dS, yyyy, h:MM:ss TT");
 };
 
-
-var spinnerOpts = {
-    lines: 13, // The number of lines to draw
-    length: 20, // The length of each line
-    width: 10, // The line thickness
-    radius: 30, // The radius of the inner circle
-    corners: 1, // Corner roundness (0..1)
-    rotate: 0, // The rotation offset
-    direction: 1, // 1: clockwise, -1: counterclockwise
-    color: '#000', // #rgb or #rrggbb
-    speed: 1, // Rounds per second
-    trail: 60, // Afterglow percentage
-    shadow: false, // Whether to render a shadow
-    hwaccel: false, // Whether to use hardware acceleration
-    className: 'spinner', // The CSS class to assign to the spinner
-    zIndex: 2e9, // The z-index (defaults to 2000000000)
-    top: '100', // Top position relative to parent in px
-    left: '100' // Left position relative to parent in px
+Template.message.ts_image = function () {
+  var wylob_item = Wylobs.findOne(this.wylob_id);
+  if (wylob_item && wylob_item.talent_searcher_id) {
+    var ts_person = TalentSearchers.findOne(wylob_item.talent_searcher_id);
+    if (ts_person && ts_person.thumbnail_url) {
+      return ts_person.thumbnail_url;
+    }
+  } else {
+    return "/img/person_dummy.png";
+  }
 };
-
-
+Template.message.netlighter_image = function () {
+  var wylob_item = Wylobs.findOne(this.wylob_id);
+  if (wylob_item && wylob_item.netlighter_id) {
+    var netlighter = TalentSearchers.findOne(wylob_item.netlighter_id);
+    if (netlighter && netlighter.thumbnail_url) {
+      return netlighter.thumbnail_url;
+    }
+  } else {
+    return "/img/person_dummy.png";
+  }
+};

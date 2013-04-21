@@ -7,13 +7,14 @@
   {{/if}}
   {{#unless selected}}
     <h3>Messages</h3>
-    <div class="badge badge-info">Select name in the list.</div>
+    <div>Select a name in the highscore list to see messages for that player.</div>
   {{/unless}}
 </template>
 
 <template name="message">
   <div class="message alert alert-{{ statusClass }}">
-    <h4>{{ msg }}</h4>
+    <h4 class="heading">{{ msg }}</h4>
+    <img src="{{ ts_image }}" width="40" height="40" class="ts_image">
     <div class="timeago" abbr="{{ timestamp }}">{{ timestamp }}</div>
     <div class="progress">
       <div class="bar bar-{{ statusClass }}" style="width: {{ progress }}%;"></div>
