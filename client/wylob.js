@@ -181,7 +181,7 @@ Template.add_wylob_form.events = {
           $(".new_wylob").html(res.html);
 
           var form = $("#add_wylob_form"),
-              url = form.find("[type=submit]").toggleClass('hide');
+              url = form.find("[type=submit]").removeClass('hide');
           Session.set("wylobToBeAdded", res);
 
       });
