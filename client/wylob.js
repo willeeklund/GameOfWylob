@@ -156,6 +156,14 @@ Template.add_wylob_form.events = {
     var wylobToBeAdded = Session.get("wylobToBeAdded");
     var titlesplits = wylobToBeAdded.title.split(' ');
     var name = '{0} {1}'.format(titlesplits[0],titlesplits[1]);
+
+    if(Session.get("selected_player") == null)
+    {
+        $(".alert").html("<b>Error </b> Not logged in");
+        $(".alert").toggleClass('hide');
+        return;
+    }
+
     Wylobs.insert({
         name: name,
         step: 1,
