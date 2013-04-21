@@ -178,6 +178,7 @@ Template.add_wylob_form.events = {
   'keyup input[name=name]' : function() {
       var form = $("#add_wylob_form"),
           url = form.find("[name=name]").val();
+      console.log("url", url);
 
       if(url.length < 10) // Guard for short urls
         return;
@@ -198,15 +199,17 @@ Template.add_wylob_form.events = {
 
 
 var GetEmbedlyJSONObject = function (url, callback) {
-    var spinner = new Spinner().spin();
-    $(".new_wylob").html(spinner.el);
+  var spinner = new Spinner().spin();
+  $(".new_wylob").html(spinner.el);
 
-    EmbedlyProvider.GetEmbedlyJSONObject(url, function(err, res) {
-        if(err)
-            console.log(err);
-        else
-            return callback(null, res);
-    });
+  EmbedlyProvider.GetEmbedlyJSONObject(url, function(err, res) {
+    if (err) {
+      console.error(err);
+      $(".new_wylob").html("<div class='alert alert-danger'><b>Error!</b><div>"+err+"</div></div>");
+    } else {
+      return callback(null, res);
+    }
+  });
 };
 
 

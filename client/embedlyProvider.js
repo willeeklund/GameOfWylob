@@ -12,12 +12,10 @@ EmbedlyProvider.GetEmbedlyJSONObject = function(url, callback) {
     var url = embedly_url_template.format(url);
 
     Meteor.http.call("GET", url, function(err, res) {
-        if(err) {
-            console.log(err);
+        if (err) {
+            console.error(err);
             callback(err, null);
-        }
-        else
-        {
+        } else {
             callback(null, res.data);
         }
     });
@@ -32,6 +30,3 @@ String.format = String.prototype.format = function() {
 
     return string;
 };
-
-
-
