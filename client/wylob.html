@@ -62,18 +62,13 @@
 <template name="add_wylob_form">
   <span class="">Add WYLOB for <span class="details">{{ selected_name }}</span></span>
   <form class="add_wylob_form" name="add_wylob_form" id="add_wylob_form">
-    <input type="text" name="name" value="" placeholder="Name of Wylob">
-    <input type="submit" id="submit" value="Add the wylob" class="btn btn-primary">
+    <input type="text" name="name" value="se.linkedin.com/pub/anders-bäck/15/52a/820" placeholder="Name of Wylob">
+      <div class="new_wylob" />
+      </div>
+      <div class="alert hide alert-success"></div>
+    <input type="submit" id="submit" value="Add the wylob" class="btn btn-primary hide">
   </form>
 
-  {{#if currentUser}}
-    <ul id="fb_friends_list">
-    </ul>
-    {{ fb_friends }}
-  {{/if}}
-  {{#unless currentUser}}
-    NOT Logged in!
-  {{/unless}}
 </template>
 
 

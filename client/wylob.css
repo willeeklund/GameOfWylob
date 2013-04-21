@@ -71,3 +71,12 @@ form input[type=text] {
 .add_netlighter_form {
     display: none;
 }
+
+.new_wylob {
+    height: 170px;
+}
+
+.spinner {
+    top:50px;
+    left:100px;
+}
