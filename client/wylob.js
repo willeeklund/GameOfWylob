@@ -160,9 +160,8 @@ Template.add_wylob_form.events = {
  */
 Template.messages.selected_name = function () {
   var netlighter = Netlighters.findOne(Session.get("selected_player"));
-  console.log("messages.selected_name():", netlighter);
   if (netlighter) {
-    return netlighter.name
+    return netlighter.name;
   }
 };
 Template.messages.selected = function () {
@@ -170,7 +169,16 @@ Template.messages.selected = function () {
   return netlighter && netlighter.name;
 };
 Template.messages.messages = function () {
-  return Messages.find({netlighter_id: Session.get("selected_player")}, {sort: {timestamp: -1}, limit: 6});
+  var messages = [],
+      all_messages = Messages.find({}, {sort: {timestamp: -1}, limit: 20});
+  all_messages.forEach(function (item) {
+    if (item.netlighter_id === Session.get("selected_player")) {
+      messages.push(item);
+    } else if (item.statusClass !== "danger") {
+      messages.push(item);
+    }
+  });
+  return messages;
 };
 
 /**
@@ -184,4 +192,26 @@ Template.message.timestamp = function () {
   }
   return d.getFullYear() + "-" + month + "-" + d.getDate() + " " + d.getHours() + ":" + d.getMinutes() + ":" + d.getSeconds();
   return dateFormat(d, "dddd, mmmm dS, yyyy, h:MM:ss TT");
+};
+Template.message.ts_image = function () {
+  var wylob_item = Wylobs.findOne(this.wylob_id);
+  if (wylob_item && wylob_item.talent_searcher_id) {
+    var ts_person = TalentSearchers.findOne(wylob_item.talent_searcher_id);
+    if (ts_person && ts_person.thumbnail_url) {
+      return ts_person.thumbnail_url;
+    }
+  } else {
+    return "/img/person_dummy.png";
+  }
+};
+Template.message.netlighter_image = function () {
+  var wylob_item = Wylobs.findOne(this.wylob_id);
+  if (wylob_item && wylob_item.netlighter_id) {
+    var netlighter = TalentSearchers.findOne(wylob_item.netlighter_id);
+    if (netlighter && netlighter.thumbnail_url) {
+      return netlighter.thumbnail_url;
+    }
+  } else {
+    return "/img/person_dummy.png";
+  }
 };

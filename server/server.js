@@ -48,7 +48,7 @@ var points = {
 var startInterview = function (wylob_item) {
   // Mark as active
   wylob_item.status = "active";
-  Wylobs.update(wylob_item._id, wylob_item);
+  Wylobs.update(wylob_item._id, {$set: {status: "active"}});
 
   var random = Random.fraction();
   if (random <= success_prob[wylob_item.step]) {
@@ -57,13 +57,27 @@ var startInterview = function (wylob_item) {
     Meteor.setTimeout(function () {
       if (wylob_item.step < 4) {
         // Next interview
-        Messages.insert({msg: wylob_item.name + " passed interview " + wylob_item.step, statusClass: "info", wylob_id: wylob_item._id, netlighter_id: wylob_item.netlighter_id, timestamp: new Date(), progress: 25*wylob_item.step});
+        Messages.insert({
+          msg: wylob_item.name + " passed interview " + wylob_item.step,
+          statusClass: "info",
+          wylob_id: wylob_item._id,
+          netlighter_id: wylob_item.netlighter_id,
+          timestamp: new Date(),
+          progress: 25*wylob_item.step
+        });
         wylob_item.step = wylob_item.step + 1;
         Wylobs.update(wylob_item._id, {$inc: {step: 1}});
         startInterview(wylob_item);
       } else {
         // New hire
-        Messages.insert({msg: wylob_item.name + " was hired :)", statusClass: "success", wylob_id: wylob_item._id, netlighter_id: wylob_item.netlighter_id, timestamp: new Date(), progress: 25*wylob_item.step});
+        Messages.insert({
+          msg: wylob_item.name + " was hired :)",
+          statusClass: "success",
+          wylob_id: wylob_item._id,
+          netlighter_id: wylob_item.netlighter_id,
+          timestamp: new Date(),
+          progress: 25*wylob_item.step
+        });
         console.log("  New hire!");
         Wylobs.update(wylob_item._id, {$set: {status: "success"}});
         Netlighters.update(wylob_item.netlighter_id, {$inc: {score: points[5]}});
@@ -74,10 +88,24 @@ var startInterview = function (wylob_item) {
     // Failed interview
     if (wylob_item.step < 4) {
       console.log("Failed interview %d for %s (%s > %s)", wylob_item.step, wylob_item.name, random, success_prob[wylob_item.step]);
-      Messages.insert({msg: wylob_item.name + " did not make it pass interview " + wylob_item.step, statusClass: "danger", wylob_id: wylob_item._id, netlighter_id: wylob_item.netlighter_id, timestamp: new Date(), progress: 25*wylob_item.step});
+      Messages.insert({
+        msg: wylob_item.name + " did not make it pass interview " + wylob_item.step,
+        statusClass: "danger",
+        wylob_id: wylob_item._id,
+        netlighter_id: wylob_item.netlighter_id,
+        timestamp: new Date(),
+        progress: 25*wylob_item.step
+      });
     } else {
       console.log("Candidate %s took another job (%s > %s)", wylob_item.name, random, success_prob[wylob_item.step]);
-      Messages.insert({msg: wylob_item.name + " took another job ", statusClass: "warning", wylob_id: wylob_item._id, netlighter_id: wylob_item.netlighter_id, timestamp: new Date(), progress: 25*wylob_item.step});
+      Messages.insert({
+        msg: wylob_item.name + " took another job ",
+        statusClass: "warning",
+        wylob_id: wylob_item._id,
+        netlighter_id: wylob_item.netlighter_id,
+        timestamp: new Date(),
+        progress: 25*wylob_item.step
+      });
     }
     Netlighters.update(wylob_item.netlighter_id, {$inc: {score: points[wylob_item.step]}});
     // Points.insert({wylob_id: wylob_item._id, netlighter_id: wylob_item.netlighter_id, points: points[wylob_item.step], step: wylob_item.step, timestamp: new Date()})
@@ -119,11 +147,21 @@ Meteor.startup(function () {
           i=0;
       tsgroup.forEach(function (ts_person) {
         if (i === random) {
-          Wylobs.update(wylob_item._id, {$set: {talent_searcher: ts_person._id}});
-          Messages.insert({msg: ts_person.name + " (from Talent Search) was assigned to handle the interview process for " + wylob_item.name + ".", statusClass: "info", wylob_id: wylob_item._id, netlighter_id: wylob_item.netlighter_id, timestamp: new Date(), progress: 0});
+          wylob_item.talent_searcher_id = ts_person._id;
+          Wylobs.update(wylob_item._id, {$set: {talent_searcher_id: ts_person._id}});
+          //Wylobs.update(wylob_item._id, {$set: {status: "success"}});
+          Messages.insert({
+            msg: ts_person.name + " (from Talent Search) was assigned to handle the interview process for " + wylob_item.name,
+            statusClass: "info",
+            wylob_id: wylob_item._id,
+            netlighter_id: wylob_item.netlighter_id,
+            timestamp: new Date(),
+            progress: 0
+          });
         }
         i++;
       });
+      console.log("new wylob item", Wylobs.findOne(wylob_item._id));
       startInterview(wylob_item);
     });
   }, 1000);

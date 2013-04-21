@@ -71,3 +71,16 @@ form input[type=text] {
 .add_netlighter_form {
     display: none;
 }
+
+.message {
+    position: relative;
+    padding: 10px;
+}
+.message .heading {
+    margin-right: 40px;
+}
+.ts_image {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
