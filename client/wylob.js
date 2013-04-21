@@ -1,5 +1,6 @@
 
 Netlighters = new Meteor.Collection("netlighters");
+TalentSearchers = new Meteor.Collection("talent_searchers");
 Wylobs = new Meteor.Collection("wylobs");
 Messages = new Meteor.Collection("messages");
 Points = new Meteor.Collection("points");

@@ -1,5 +1,6 @@
 
 Netlighters = new Meteor.Collection("netlighters");
+TalentSearchers = new Meteor.Collection("talent_searchers");
 Wylobs = new Meteor.Collection("wylobs");
 Messages = new Meteor.Collection("messages");
 Points = new Meteor.Collection("points");
@@ -95,11 +96,34 @@ Meteor.startup(function () {
       Netlighters.insert({name: netlighter.name, email: netlighter.email, score: 0});
     }
   }
+  if (TalentSearchers.find().count() === 0) {
+    var db_init_talent_searchers = [
+      {name: "Hakim Rudels", thumbnail_url: "http://m3.licdn.com/mpr/pub/image-oX1oqqNhPFc3o06gj_EuwWCzRo0FivG853ERSgmTRVZlx2umoX1RYT9hR58GjrtRSWL5/hakim-rudels.jpg"},
+      {name: "Johanna Renberg", thumbnail_url: "http://m3.licdn.com/mpr/pub/image-I_OuZy8n2nPbHzlczX5o5oU7hXt-9FiSI_u1eeCnhuD7L9dGI_O1eVjnhOJAyjPmqrG9/johanna-renberg.jpg"},
+      {name: "Per Nyström Ol-Ers", thumbnail_url: "http://m3.licdn.com/mpr/pub/image-bsIWQiaAcs_Rz5aj2GhDh9Dm7Mqy-s6HUADFmSAQ79-LAaq5bsIFgMBA7ieeADk_o8MZ/per-nystr%C3%B6m-ol-ers.jpg"},
+      {name: "Andy Persson", thumbnail_url: "http://m.c.lnkd.licdn.com/media/p/4/000/170/1b8/05b5ee6.jpg"},
+      {name: "Carolina Edgren", thumbnail_url: "http://m3.licdn.com/mpr/pub/image-1IA-bP5sDz2QwJe85DTtSfV2lJxUaJgG1ITnw3JSl6wgasOq1IAnFTqslyQbD6lLb6Ku/carolina-edgren.jpg"}
+    ];
+    for (var i = 0; i < db_init_talent_searchers.length; i++) {
+      var talent_searcher = db_init_talent_searchers[i];
+      TalentSearchers.insert({name: talent_searcher.name, thumbnail_url: talent_searcher.thumbnail_url});
+    }
+  }
 
   Meteor.setInterval(function () {
     var new_wylobs = Wylobs.find({status: "new"});
     new_wylobs.forEach(function (wylob_item) {
-      console.log("new wylob_item:", wylob_item.name);
+      // Assign a TalentSeearcher to this WYLOB
+      var tsgroup = TalentSearchers.find({}),
+          random = Math.floor(Random.fraction()*tsgroup.count()),
+          i=0;
+      tsgroup.forEach(function (ts_person) {
+        if (i === random) {
+          Wylobs.update(wylob_item._id, {$set: {talent_searcher: ts_person._id}});
+          Messages.insert({msg: ts_person.name + " (from Talent Search) was assigned to handle the interview process for " + wylob_item.name + ".", statusClass: "info", wylob_id: wylob_item._id, netlighter_id: wylob_item.netlighter_id, timestamp: new Date(), progress: 0});
+        }
+        i++;
+      });
       startInterview(wylob_item);
     });
   }, 1000);
