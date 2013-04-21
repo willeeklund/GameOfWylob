@@ -13,8 +13,16 @@
 
 <template name="message">
   <div class="message alert alert-{{ statusClass }}">
-    <h4 class="heading">{{ msg }}</h4>
-    <img src="{{ ts_image }}" width="40" height="40" class="ts_image">
+    <div class="heading">
+      {{ msg }}
+    </div>
+    <img src="{{ ts_image }}" class="thumbnail ts_image">
+    {{#unless private_message}}
+      <div class="tipped_by">
+        <img src="{{ netlighter_image }}" class="thumbnail netlighter_image">
+        Wylobbed by: {{ netlighter_name }}
+      </div>
+    {{/unless}}
     <div class="timeago" abbr="{{ timestamp }}">{{ timestamp }}</div>
     <div class="progress">
       <div class="bar bar-{{ statusClass }}" style="width: {{ progress }}%;"></div>

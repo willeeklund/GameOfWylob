@@ -174,7 +174,7 @@ Template.messages.messages = function () {
   all_messages.forEach(function (item) {
     if (item.netlighter_id === Session.get("selected_player")) {
       messages.push(item);
-    } else if (item.statusClass !== "danger") {
+    } else if (item.statusClass !== "danger" && item.statusClass !== "warning") {
       messages.push(item);
     }
   });
@@ -184,6 +184,9 @@ Template.messages.messages = function () {
 /**
  * Message item
  */
+Template.message.private_message = function () {
+  return Session.equals('selected_player', this.netlighter_id);
+};
 Template.message.timestamp = function () {
   var d = new Date(this.timestamp);
   var month = (d.getMonth()+1);
@@ -200,18 +203,26 @@ Template.message.ts_image = function () {
     if (ts_person && ts_person.thumbnail_url) {
       return ts_person.thumbnail_url;
     }
-  } else {
-    return "/img/person_dummy.png";
   }
+  return "/img/person_dummy.png";
 };
 Template.message.netlighter_image = function () {
   var wylob_item = Wylobs.findOne(this.wylob_id);
   if (wylob_item && wylob_item.netlighter_id) {
-    var netlighter = TalentSearchers.findOne(wylob_item.netlighter_id);
+    var netlighter = Netlighters.findOne(wylob_item.netlighter_id);
     if (netlighter && netlighter.thumbnail_url) {
       return netlighter.thumbnail_url;
     }
-  } else {
-    return "/img/person_dummy.png";
   }
+  return "/img/person_dummy.png";
+};
+Template.message.netlighter_name = function () {
+  var wylob_item = Wylobs.findOne(this.wylob_id);
+  if (wylob_item.netlighter_id) {
+    var netlighter = Netlighters.findOne(wylob_item.netlighter_id);
+    if (netlighter && netlighter.name) {
+      return netlighter.name;
+    }
+  }
+  return "Unknown";
 };

@@ -77,10 +77,24 @@ form input[type=text] {
     padding: 10px;
 }
 .message .heading {
+    font-size: 20px;
+    min-height: 45px;
     margin-right: 40px;
 }
-.ts_image {
+.message .thumbnail {
+    width: 40px;
+    height: 40px;
+}
+.message .ts_image {
     position: absolute;
     right: 10px;
     top: 10px;
+}
+.message .netlighter_image {
+    position: absolute;
+    right: 10px;
+}
+.message .tipped_by {
+    font-size: 16px;
+    min-height: 45px;
 }
