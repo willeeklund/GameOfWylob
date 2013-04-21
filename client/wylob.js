@@ -7,10 +7,11 @@ Points = new Meteor.Collection("points");
 /**
  * Navbar & Routing
  */
-var navbarItems = [{link: "add", text: "Add Wylob"},
-  {link: "my_page", text: "My Wylobs"},
+var navbarItems = [{link: "add", text: "Add Wylob", active: "active"},
+  {link: "feed", text: "Newsfeed"},
   {link: "highscore", text: "Highscores"},
-  {link: "all_wylobs", text: "All Wylobs"}];
+//  {link: "all_wylobs", text: "All Wylobs"}
+];
 Template.navbar.tabs = function () {
   return navbarItems;
 };
@@ -37,32 +38,17 @@ if (location.pathname != "/") {
 /**
  * Main template
  */
-Template.wylob.netlighters = function () {
+Template.highscore.netlighters = function () {
   return Netlighters.find({}, {sort: {score: -1, name: 1}});
 };
-Template.wylob.selected_name = function () {
+Template.highscore.selected_name = function () {
   var netlighter = Netlighters.findOne(Session.get("selected_player"));
   return netlighter && netlighter.name;
 };
-Template.wylob.wylob_list = function () {
-  return Wylobs.find({}, {sort: {status: -1, name: 1}});
-};
-Template.wylob.wylob_list_current_netlighter = function () {
+Template.highscore.wylob_list_current_netlighter = function () {
   return Wylobs.find({netlighter_id: Session.get("selected_player")}, {sort: {name: 1}});
 };
-Template.wylob.page_add = function () {
-  return Session.equals('route', 'add');
-};
-Template.wylob.page_my_page = function () {
-  return Session.equals('route', 'my_page');
-};
-Template.wylob.page_highscore = function () {
-  return Session.equals('route', 'highscore');
-};
-Template.wylob.page_all_wylobs = function () {
-  return Session.equals('route', 'all_wylobs');
-};
-Template.wylob.events = {
+Template.highscore.events = {
   'click #unselect': function () {
     Session.set("selected_player", null);
   },
