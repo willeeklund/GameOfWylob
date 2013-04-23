@@ -20,8 +20,7 @@
     // 2. Runs when the viewer has authenticated
     function onLinkedInAuth() {
       IN.API.Connections("me")
-        //.fields("firstName", "lastName", "industry")
-        .params({"start": 0, "count": 20})
+        //.params({"start": 0, "count": 100})
         .result(displayConnections)
         .error(function (err) {
           console.error(err);
@@ -125,6 +124,7 @@
     <br />
     <div class="alert hide alert-info"></div>
     <div class="show_all_list label label-info hide">Show entire list</div>
+    <input type="text" placeholder="Filter LinkedIn connections" id="linkedin_filter">
     <ul id="connections" class="connections"></ul>
     <form class="add_linkedin_form hide">
       <textarea id="linkedin_comment" placeholder="Why Would You Like This person On Board Netlight?"></textarea><br />

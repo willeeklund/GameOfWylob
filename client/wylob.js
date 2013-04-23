@@ -198,6 +198,23 @@ Template.add_wylob_form.events = {
   }
 };
 Template.linkedin_connections.events = {
+  'keyup #linkedin_filter': function (ev) {
+    var value = $("#linkedin_filter").val();
+    if (value.length > 0) {
+      $people = $("#connections .linkedin_person");
+      $.each($people, function (index, item) {
+        var name = $(item).find("b").text();
+        var pattern = new RegExp(value, "ig");
+        if (pattern.test(name)) {
+          $(item).show();
+        } else {
+          $(item).hide();
+        }
+      });
+    } else {
+      $("#connections .linkedin_person").show();
+    }
+  },
   'click #connections': function (ev) {
     var item = $(ev.target).closest(".linkedin_person");
     if (item.length > 0) {
