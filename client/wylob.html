@@ -5,15 +5,58 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   <title>WYLOB</title>
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
+  <script type="text/javascript" src="http://platform.linkedin.com/in.js">
+    api_key: eu4dqocakhdy
+    scope: r_basicprofile r_network
+    onLoad: onLinkedInLoad
+    authorize: true
+  </script>
+  <script type="text/javascript">
+    // 2. Runs when the JavaScript framework is loaded
+    function onLinkedInLoad() {
+      IN.Event.on(IN, "auth", onLinkedInAuth);
+    }
+
+    // 2. Runs when the viewer has authenticated
+    function onLinkedInAuth() {
+      IN.API.Connections("me")
+        //.fields("firstName", "lastName", "industry")
+        .params({"start": 0, "count": 20})
+        .result(displayConnections)
+        .error(function (err) {
+          console.error(err);
+        });
+    }
+
+    // 2. Runs when the Connections() API call returns successfully
+    function displayConnections(connections) {
+      console.log("displayConnections()", connections);
+      $connections = $("#connections");
+      //var connectionsDiv = document.getElementById("connections");
+
+      var members = connections.values; // The list of members you are connected to
+      for (var member in members) {
+        var $el = $("<li>").addClass("linkedin_person").data(members[member]);
+        $el.html("<img src='"+members[member].pictureUrl+"'><b>" + members[member].firstName + " " + members[member].lastName+"</b>, <i>"+members[member].headline+"</i>");
+        $connections.append($el);
+        //var str = "<li class='linkedin_person' data-id='"+members[member].id+"' data-profile-url='"+members[member].siteStandardProfileRequest.url+"'><img src='"+members[member].pictureUrl+"'><b>" + members[member].firstName + " " + members[member].lastName+"</b>, <i>"+members[member].headline+"</i></li>";
+        //connectionsDiv.innerHTML += str;
+      }
+    }
+  </script>
 </head>
 
 <body>
 <div class="tabbable"> <!-- Only required for left/right tabs -->
   {{> navbar}}
+
   <div class="tab-content">
     <div class="tab-pane active" id="add">
       <h2>Add Wylob</h2>
+      <h3>Using Embedly</h3>
       {{> add_wylob_form}}
+      <h3>Using LinkedIn connection</h3>
+      {{> linkedin_connections}}
     </div>
     <div class="tab-pane" id="feed">
       {{> messages}}
@@ -64,16 +107,32 @@
 
 
 <template name="add_wylob_form">
-  <form class="add_wylob_form" name="add_wylob_form" id="add_wylob_form">
-    <input type="text" name="name" value="" placeholder="Paste in Wylob Linked In Public Url here">
-      <div class="new_wylob"></div>
-      <div class="alert hide alert-info"></div>
-    <input type="submit" id="submit" value="Add the wylob" class="btn btn-primary hide">
+  <input type="text" name="name" value="" placeholder="Paste in public LinkedIn Url here">
+  <div class="alert hide alert-info"></div>
+  <form class="add_wylob_form hide" name="add_wylob_form" id="add_wylob_form">
+    <div class="new_wylob"></div>
+    <textarea class="" id="comment" placeholder="Why Would You Like This person On Board Netlight?"></textarea><br />
+    <input class="" type="text" name="phone" id="phone" placeholder="Phone number"><br />
+    <input type="submit" id="submit" value="Add the Wylob" class="btn btn-primary">
   </form>
-
 </template>
 
-
+<template name="linkedin_connections">
+  <div class="linkedin_connections">
+    <script type="in/Login">
+      Hello, <?js= firstName ?> <?js= lastName ?>. Choose a connection from the list below.
+    </script>
+    <br />
+    <div class="alert hide alert-info"></div>
+    <div class="show_all_list label label-info hide">Show entire list</div>
+    <ul id="connections" class="connections"></ul>
+    <form class="add_linkedin_form hide">
+      <textarea id="linkedin_comment" placeholder="Why Would You Like This person On Board Netlight?"></textarea><br />
+      <input type="text" name="phone" id="linkedin_phone" placeholder="Phone number"><br />
+      <input type="submit" class="btn btn-primary submit" value="Add the Wylob">
+    </form>
+  </div>
+</template>
 
 
 <!-- OLD -->

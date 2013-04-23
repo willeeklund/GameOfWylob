@@ -169,6 +169,7 @@ Template.add_wylob_form.events = {
         step: 1,
         status: "new",
         netlighter_id: Session.get("selected_player"),
+        thumbnail_url: wylobToBeAdded.thumbnail_url,
         data : wylobToBeAdded
     });
 
@@ -196,6 +197,56 @@ Template.add_wylob_form.events = {
       });
   }
 };
+Template.linkedin_connections.events = {
+  'click #connections': function (ev) {
+    var item = $(ev.target).closest(".linkedin_person");
+    if (item.length > 0) {
+      item.toggleClass("active");
+      item.closest(".connections").toggleClass("single_focus");
+      $(".show_all_list").toggleClass("hide");
+      $(".add_linkedin_form").toggleClass("hide");
+    }
+  },
+  'click .show_all_list': function (ev) {
+    $(".connections .linkedin_person").removeClass("active");
+    $(".connections").toggleClass("single_focus");
+    $(".show_all_list").toggleClass("hide");
+    $(".add_linkedin_form").toggleClass("hide");
+  },
+  'click .add_linkedin_form .submit': function (ev) {
+    ev.preventDefault();
+    var item = $(".connections .linkedin_person.active");
+    if (item.length > 0) {
+      var data = item.data();
+      data.comment = $("#linkedin_comment").val();
+      data.phone = $("#linkedin_phone").val();
+      console.log("Wylob item data", data);
+
+      if(Session.get("selected_player") == null) {
+        $(".linkedin_connections .alert").html("<b>Error </b> Not logged in");
+        $(".linkedin_connections .alert").toggleClass('hide');
+        return;
+      }
+
+      Wylobs.insert({
+        name: data.firstName + " " + data.lastName,
+        step: 1,
+        status: "new",
+        netlighter_id: Session.get("selected_player"),
+        thumbnail_url: data.pictureUrl,
+        data : data
+      });
+
+      $(".linkedin_connections .alert").html("<b>Added Wylob</b><br />"+data.firstName+" was added to the Wylob list.");
+      $(".linkedin_connections .alert").removeClass("hide alert-info").addClass("alert-success");
+      setTimeout(function () {
+        $(".linkedin_connections .alert").addClass("hide alert-info").removeClass("alert-success");
+      }, 5000);
+      // Hide the list
+      $(".show_all_list").click();
+    }
+  }
+}
 
 
 var GetEmbedlyJSONObject = function (url, callback) {
@@ -273,6 +324,13 @@ Template.message.netlighter_image = function () {
     if (netlighter && netlighter.thumbnail_url) {
       return netlighter.thumbnail_url;
     }
+  }
+  return "/img/person_dummy.png";
+};
+Template.message.wylob_image = function () {
+  var wylob_item = Wylobs.findOne(this.wylob_id);
+  if (wylob_item && wylob_item.thumbnail_url) {
+    return wylob_item.thumbnail_url;
   }
   return "/img/person_dummy.png";
 };

@@ -17,6 +17,9 @@
       {{ msg }}
     </div>
     <img src="{{ ts_image }}" class="thumbnail ts_image">
+    {{#if private_message}}
+      <img src="{{ wylob_image }}" class="thumbnail netlighter_image">
+    {{/if}}
     {{#unless private_message}}
       <div class="tipped_by">
         <img src="{{ netlighter_image }}" class="thumbnail netlighter_image">
