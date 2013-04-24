@@ -176,22 +176,22 @@ Template.add_wylob_form.events = {
     $(".alert").html("<b>Congratulations </b>Added Wylob: '{0}'".format(name));
     $(".alert").toggleClass('hide');
   },
-  'keyup input[name=name]' : function() {
-      var form = $("#add_wylob_form"),
-          url = form.find("[name=name]").val();
-      console.log("url", url);
+  'keyup input#embedly_input' : function() {
+      var url = $("#embedly_input").val();
 
       if(url.length < 10) // Guard for short urls
         return;
 
       if(url.indexOf("http://") == -1)
         url = "http://" + url;
+      console.log("url", url);
+      $(".new_wylob").html("Loading "+url+"...");
 
+      $(".add_wylob_form").removeClass("hide");
       GetEmbedlyJSONObject(url, function(err, res) {
+          console.log("result from embedly:", res);
           $(".new_wylob").html(res.html);
-
-          var form = $("#add_wylob_form"),
-              url = form.find("[type=submit]").removeClass('hide');
+          var form = $("#add_wylob_form").removeClass("hide");
           Session.set("wylobToBeAdded", res);
 
       });

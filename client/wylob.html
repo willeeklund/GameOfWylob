@@ -9,7 +9,7 @@
     api_key: eu4dqocakhdy
     scope: r_basicprofile r_network
     onLoad: onLinkedInLoad
-    authorize: true
+    //authorize: true
   </script>
   <script type="text/javascript">
     // 2. Runs when the JavaScript framework is loaded
@@ -20,7 +20,7 @@
     // 2. Runs when the viewer has authenticated
     function onLinkedInAuth() {
       IN.API.Connections("me")
-        //.params({"start": 0, "count": 100})
+        .params({"start": 0, "count": 100})
         .result(displayConnections)
         .error(function (err) {
           console.error(err);
@@ -52,8 +52,6 @@
   <div class="tab-content">
     <div class="tab-pane active" id="add">
       <h2>Add Wylob</h2>
-      <h3>Using Embedly</h3>
-      {{> add_wylob_form}}
       <h3>Using LinkedIn connection</h3>
       {{> linkedin_connections}}
     </div>
@@ -106,7 +104,7 @@
 
 
 <template name="add_wylob_form">
-  <input type="text" name="name" value="" placeholder="Paste in public LinkedIn Url here">
+  <input type="text" id="embedly_input" name="name" value="" placeholder="Paste in public LinkedIn Url here">
   <div class="alert hide alert-info"></div>
   <form class="add_wylob_form hide" name="add_wylob_form" id="add_wylob_form">
     <div class="new_wylob"></div>
