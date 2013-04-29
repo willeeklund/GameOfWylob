@@ -1,0 +1,2294 @@
+{
+  "_count": 100,
+  "_start": 0,
+  "_total": 769,
+  "values": [
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:joup"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/PmFl-lVX9K"
+      },
+      "firstName": "Elisabeth",
+      "headline": "Leg läkare at Jämtlands läns landsting",
+      "id": "PmFl-lVX9K",
+      "industry": "Medical Practice",
+      "lastName": "Abdon",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=86475370&authType=name&authToken=joup&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:VO2l"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/4ketKEZ6Gb"
+      },
+      "firstName": "Emma",
+      "headline": "Projektledare at Swedish Biogas International",
+      "id": "4ketKEZ6Gb",
+      "industry": "Renewables & Environment",
+      "lastName": "Abrahamsson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Linkoping, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_WfMGODJnBvIwIFlhdWRgOmIbcnJIwChhwwSgOmI9HrDRN6c8LdWaKax4JUMqH532e2UpAdvjl64i",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=11979724&authType=name&authToken=VO2l&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:XuoY"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/5fK48S7JXr"
+      },
+      "firstName": "Belinda",
+      "headline": "PhD at Lund University",
+      "id": "5fK48S7JXr",
+      "industry": "Biotechnology",
+      "lastName": "Adler",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_yq555n9iTEXTjZaMycNn5zbmTo_8xZ7MYKlV5zqxYuBK8pZJr-vWIv8l7FixpxmvgcbUEtEVt6RM",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=63464787&authType=name&authToken=XuoY&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:gO2R"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/80giJgqYKO"
+      },
+      "firstName": "Julia",
+      "headline": "Student at Lunds Tekniska Högskola",
+      "id": "80giJgqYKO",
+      "industry": "Biotechnology",
+      "lastName": "Ågren",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_OPQTE1QOlIP8YPykpq5OElLm1acmyvukpAtOElFO2DiY_AUXtvnSXAPrjQBl0tSe0Kkx59vKmhFX",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=132467383&authType=name&authToken=gO2R&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:y7py"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/31h9Pq0MxY"
+      },
+      "firstName": "Erik",
+      "headline": "Student",
+      "id": "31h9Pq0MxY",
+      "industry": "Higher Education",
+      "lastName": "Ahlmann",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_Wn8k2DAjmVj6P0A5FAlc275PCUJbAJ35IBNR2mnSgYDBag9LLKKeCaG_uzMZtOhWevCsidkcF8_W",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=146566655&authType=name&authToken=y7py&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:VXNI"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/bHTYgtBf86"
+      },
+      "firstName": "John-Oskar",
+      "headline": "Consultant at Netlight Consulting AB",
+      "id": "bHTYgtBf86",
+      "industry": "Information Technology and Services",
+      "lastName": "Ahlström",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_uMN4t06o2r992y9Ams5btyB6mKlQ2y9AaR8btyNzl95n143lhxkqpphR8gAM7UcjSsn6gRoDje9v",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=29166549&authType=name&authToken=VXNI&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:hWeb"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/lStaLw6O0b"
+      },
+      "firstName": "Anna",
+      "headline": "Project manager and project planner at ÅF AB",
+      "id": "lStaLw6O0b",
+      "industry": "Civil Engineering",
+      "lastName": "Åhlund",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Gothenburg, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_9r8JGirpmMSl-s5nn-lQG8-la0OgKJqnqcNQG88aAMoS7gi9s9Kzuhqhh-YC1Ozsc1CFDFYA7krw",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=145883276&authType=name&authToken=hWeb&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:eLs0"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/PyzMfMnIxD"
+      },
+      "firstName": "Jonas",
+      "headline": "Consulting as Business Intelligence Developer på Betsson",
+      "id": "PyzMfMnIxD",
+      "industry": "Information Technology and Services",
+      "lastName": "Ahne",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Uppsala, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_jbmxXtEAVoqPviHnj5H8XrMf4u-_vQMn0ishXrMfFo6PEGm9lTYPEKD39Tty9TZspkuTIBFOffPh",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=167417027&authType=name&authToken=eLs0&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:uxzw"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/xmOK5HtF0W"
+      },
+      "firstName": "Marcus",
+      "headline": "Consultant at Netlight AS",
+      "id": "xmOK5HtF0W",
+      "industry": "Information Technology and Services",
+      "lastName": "Åkerberg",
+      "location": {
+        "country": {"code": "no"},
+        "name": "Oslo Area, Norway"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0__by8vxg1zL3UB5O1_3O1vj2Cv5tBz_a138e0vjpGEiQboFJPfTuuRge2Ue-enkf0CkYYssCwPu-S",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=121535746&authType=name&authToken=uxzw&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:1OYl"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/SV5ak0ieTx"
+      },
+      "firstName": "Stefan",
+      "headline": "Consultant på HiQ",
+      "id": "SV5ak0ieTx",
+      "industry": "Telecommunications",
+      "lastName": "Alexi",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_SEVdfp4LL0XedePXDesnfxJQbx9XIm-X7aanfxsBZJGqqoLk3uoLT0aMWtnReW1HuW4ch4XbnlPF",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=176494045&authType=name&authToken=1OYl&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:kxoH"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/DkFQRHrxTY"
+      },
+      "firstName": "Noman Ameer",
+      "headline": "IT Consultant at Netlight Consulting AB",
+      "id": "DkFQRHrxTY",
+      "industry": "Information Technology and Services",
+      "lastName": "Ali",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0__NWrbMGuVfzRpGZs_KRfbRPDVICcOXdsTrg7bRlpLSnF38OVftMpdUL-q6GHgiHnCBwaeyiMVQN0",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=178178823&authType=name&authToken=kxoH&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:mRVo"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/jN6wWM8yhA"
+      },
+      "firstName": "Aferdita",
+      "headline": "Analyst at Nordea Markets",
+      "id": "jN6wWM8yhA",
+      "industry": "Investment Banking",
+      "lastName": "Aliu",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_oFea4EV3ZhR54ig2HTWj4HEaNiWb4Qp2e6yl4dVyw6gBFGIuQ3ZGnWmtsSdZUTjhIXErcmXxFpHX",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=105543554&authType=name&authToken=mRVo&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:zT8z"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/6IMCkqB-aB"
+      },
+      "firstName": "Erik",
+      "headline": "Consultant at Netlight Consulting",
+      "id": "6IMCkqB-aB",
+      "industry": "Information Technology and Services",
+      "lastName": "Allmér",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=48699014&authType=name&authToken=zT8z&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:87Mi"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/gJTtotBKL7"
+      },
+      "firstName": "Erik",
+      "headline": "Consultant Trainee at Connecta",
+      "id": "gJTtotBKL7",
+      "industry": "Management Consulting",
+      "lastName": "Almén",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_KMzyHnAX0WntarWors9fHq3vxf5K2P4o-Y3iHztv8Wl81cfEpxLKQv6UlGL77NJ6lscCFthWqYEN",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=52897091&authType=name&authToken=87Mi&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:8CL9"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/e6VMD_ylKS"
+      },
+      "firstName": "Mats",
+      "headline": "Systems Engineer at Kockums AB",
+      "id": "e6VMD_ylKS",
+      "industry": "Nanotechnology",
+      "lastName": "Almström",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_q6hJ9i2pThdYNjJ1981o980aSGY-nZZ1nkqQ9TyatkEGWp7PZhrzZ3Hh_fODzxM0zLGFJ6aPrS9b",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=92656003&authType=name&authToken=8CL9&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:qBfM"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/4VuU1Xes09"
+      },
+      "firstName": "Kristin",
+      "headline": "Affärsrådgivare at ALMI Företagspartner",
+      "id": "4VuU1Xes09",
+      "industry": "Hospital & Health Care",
+      "lastName": "Alnemo",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=8254574&authType=name&authToken=qBfM&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:TbSI"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/Qi74DhqVz_"
+      },
+      "firstName": "Mehrnaz",
+      "headline": "Merchandiser at H&M",
+      "id": "Qi74DhqVz_",
+      "industry": "Higher Education",
+      "lastName": "Amanat Bari",
+      "location": {
+        "country": {"code": "gb"},
+        "name": "London, United Kingdom"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_66VqgSf-dnyvVeFhQXeIgfxSINMBsmQhkkawgfy-qlSb5ol8Eho417HpLVJeJWb2FL4oteaGWS0f",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=97536542&authType=name&authToken=TbSI&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:3sAx"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/lTYGTpX79q"
+      },
+      "firstName": "Filip",
+      "headline": "Account Manager at Netlight Consulting AB",
+      "id": "lTYGTpX79q",
+      "industry": "Information Technology and Services",
+      "lastName": "Andersen",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_-1nutqGiA9-KjP-jtvbPtB-CP13YjP-jKlC1tB3luvzmGcLgYzQ8pcvxgOTTYN1A1rNtgr1ZzQkF",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=113734489&authType=name&authToken=3sAx&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:1c2R"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/VAtUjl6kpi"
+      },
+      "firstName": "Hanne Fløe",
+      "headline": "Recruiter, Accenture",
+      "id": "VAtUjl6kpi",
+      "industry": "Management Consulting",
+      "lastName": "Andersen",
+      "location": {
+        "country": {"code": "dk"},
+        "name": "Copenhagen Area, Denmark"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_yq555BXmSEzmjZxMOPFn5zQhTW_8xZ7MO1lV5zqxYuBK8pZJr-vWIv8l7FixpxmvgcbUEt6KhMZM",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=6307416&authType=name&authToken=1c2R&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:osjt"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/pxyPpSkLni"
+      },
+      "firstName": "Ole",
+      "headline": "Chairman at Actimo",
+      "id": "pxyPpSkLni",
+      "industry": "Venture Capital & Private Equity",
+      "lastName": "Andersen",
+      "location": {
+        "country": {"code": "dk"},
+        "name": "Copenhagen Area, Denmark"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_7bH7EYW_vDTLJFmkS6JrEjVxBScbMF0kDLprEjV0eIiBQ_HXiT4_XgmAM8BZVhOemkol5sX6OTlk",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=11814828&authType=name&authToken=osjt&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:8d2c"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/B0ri2iTwvl"
+      },
+      "firstName": "Andreas",
+      "headline": "Solution Manager at Netlight Consulting AB",
+      "id": "B0ri2iTwvl",
+      "industry": "Information Technology and Services",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_Y7bJr-4wSAnGEZz1pH86rldXSltfERN1pDPQrleZtNQ0vx_P-WBzYApn_0-rdpv0xu5F099GOG8-",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=2548458&authType=name&authToken=8d2c&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:FYzT"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/SCfOghjB59"
+      },
+      "firstName": "Axel",
+      "headline": "Student in risk management at LTH",
+      "id": "SCfOghjB59",
+      "industry": "Nonprofit Organization Management",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_xtJM_NcCo46f-fqJAzME_cBrHpCDOfvJg9D6_cbrcsnj3wCM1NdvDB1O6AG-gHNzYlRbuKz6pSfu",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=150212111&authType=name&authToken=FYzT&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:LKno"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/39zaifsUnn"
+      },
+      "firstName": "Björn",
+      "headline": "Consultant at Netlight",
+      "id": "39zaifsUnn",
+      "industry": "Computer Software",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_3PuunY1xvhqvK_0t_q2PnjAavGlJK5Yt_AZ1npCaEk5d73W-Svy84y9hUfA61CxYhKmtMUrFh2Mh",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=42237718&authType=name&authToken=LKno&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:7ivB"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/aBogtPcSeQ"
+      },
+      "firstName": "Christian",
+      "headline": "Senior Consultant at Netlight Consulting AB",
+      "id": "aBogtPcSeQ",
+      "industry": "Computer Software",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "de"},
+        "name": "Munich Area, Germany"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_tlYgpKP0zA101hF_tcpCp-CrJlzxPhn_r1EGp-_i6c37ukTiOBmlttcDcyv8rFB7Pty_1vjxteW2",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=33636982&authType=name&authToken=7ivB&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:3434"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/K6Alna3F_T"
+      },
+      "firstName": "Daniel",
+      "headline": "Åkeri & Kundkoordinator at Taxi kurir",
+      "id": "K6Alna3F_T",
+      "industry": "Transportation/Trucking/Railroad",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Gothenburg, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_UiHHf6J8LggOBIrHM3mBfkeyFxomUIrHJGpBf5Iy4sOYk7FecL4XTLxtdAEl42AXsho9hGv4eorl",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=97679050&authType=name&authToken=3434&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:0Rmz"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/eBUnRvMHd_"
+      },
+      "firstName": "Fredrik",
+      "headline": "Manager 4potentials",
+      "id": "eBUnRvMHd_",
+      "industry": "Staffing and Recruiting",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_gyqUotnEaDbG7ORL1MFeorL6uaqaSgsL0OhXorQnPIhOtJS5AsXBkK-ZC8NAasUdyx95LBNhF5O7",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=7650995&authType=name&authToken=0Rmz&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:5lma"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/ibEBPFVWxI"
+      },
+      "firstName": "Fredrik",
+      "headline": "Software Engineer at Axis Communications",
+      "id": "ibEBPFVWxI",
+      "industry": "Computer Software",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_vtozjCi_I10lymz3cnR6j36gwcRjYek3cPOEj3TgN-fDT2PTJNVJPTzP5MUGj75DNlHI-QxGFJ1y",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=97601492&authType=name&authToken=5lma&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:EliF"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/DhjCFqQ3pJ"
+      },
+      "firstName": "Håkan",
+      "headline": "Consultant at Netlight Consulting AB",
+      "id": "DhjCFqQ3pJ",
+      "industry": "Computer Software",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm County, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_5R4EHml66oIb2axQFJRzH2_96fZBaSOQFp2zHDrnJWubAdd6djHQQSkZHG4eSE0Ek4VNFEGlGdVw",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=112593011&authType=name&authToken=EliF&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:6PPk"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/9YVcEOkdut"
+      },
+      "firstName": "Louise",
+      "headline": "Responsible for Sales and Marketing",
+      "id": "9YVcEOkdut",
+      "industry": "Logistics and Supply Chain",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=8588312&authType=name&authToken=6PPk&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:sJNU"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/AehYUXslsN"
+      },
+      "firstName": "Louise",
+      "headline": "Technology Consulting, Accenture",
+      "id": "AehYUXslsN",
+      "industry": "Information Technology and Services",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_tm_nI-WEuEC1k4JFrS8LIK0J2ec0X4eFKWBdIlao1aifRyxbOePs5AsXG5Bhb0WIPSTeX9rRtX9Y",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=97401221&authType=name&authToken=sJNU&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:0D7G"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/wjnrRlrGni"
+      },
+      "firstName": "Niclas",
+      "headline": "Consultant at Netlight Consulting AB",
+      "id": "wjnrRlrGni",
+      "industry": "Higher Education",
+      "lastName": "Andersson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm County, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=146088888&authType=name&authToken=0D7G&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:YZxU"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/mJ-86d7Z4n"
+      },
+      "firstName": "Kim",
+      "headline": "Systems Developer at Softronic",
+      "id": "mJ-86d7Z4n",
+      "industry": "Computer Software",
+      "lastName": "Ängalid",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_bvDvUe3tHL2vKEJu5nOEUot-HCHNKEduLcJoUoAmcTpk7aO2IPjMzE586oew1SH8QnfwNS7jc7sZ",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=57038824&authType=name&authToken=YZxU&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:HzIv"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/Y1khLSN_Bi"
+      },
+      "firstName": "Markus",
+      "headline": "Netlight Consultant at Betsson",
+      "id": "Y1khLSN_Bi",
+      "industry": "Information Technology and Services",
+      "lastName": "Ånöstam",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Uppsala, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_HAcsUH8f78gbYMduE195Uwb37CeHYpZuE9iLUw6AKXy4TZ72kcFnzIt0T7HcjRM8d-zkN24r-ZrX",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=131309621&authType=name&authToken=HzIv&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:uso6"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/4-HEcL9TBR"
+      },
+      "firstName": "Daniel",
+      "headline": "System developer at Tactel AB",
+      "id": "4-HEcL9TBR",
+      "industry": "Computer Software",
+      "lastName": "Appelgren",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_uXLP60U0OI6oMndzuhXh6gM_OH-QMzdzaLA26y4x3D6nQlOvhGzxepulrQtMV-HJSFFSdRQ_4u-9",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=10348124&authType=name&authToken=uso6&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:WWfE"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/vcrdbuc5JH"
+      },
+      "firstName": "Martin",
+      "headline": "Consultant at Precio",
+      "id": "vcrdbuc5JH",
+      "industry": "Computer Networking",
+      "lastName": "Appelgren",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_IdV5b2wLww4edD09IoZsb7ewbIxLImf9WaaVb7ZBZSwzqo4nbfoWdf2MW60VeWaVoo4UeHQ9Y8nO",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=5881172&authType=name&authToken=WWfE&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:gdcz"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/ZTe6wIlOt3"
+      },
+      "firstName": "Maya",
+      "headline": "Production and Supply at connectBlue",
+      "id": "ZTe6wIlOt3",
+      "industry": "Telecommunications",
+      "lastName": "Appelgren",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_Tw3KHVOZPW9qLvHoiDGfHMOMxE5qL9HoidzfHMpe87lXVt0EDSAyQJeQlXLIQAd68eimFOG_wVdH",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=10300640&authType=name&authToken=gdcz&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:RnjL"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/9mmL9N4MOh"
+      },
+      "firstName": "Mikael",
+      "headline": "Purchasing Manager at Gullberg & Jansson AB",
+      "id": "9mmL9N4MOh",
+      "industry": "Civil Engineering",
+      "lastName": "Argelius",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=10899262&authType=name&authToken=RnjL&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:qNC-"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/pVGrLUWmHc"
+      },
+      "firstName": "Lukas",
+      "headline": "Co-owner at A3 Konsulter",
+      "id": "pVGrLUWmHc",
+      "industry": "Electrical/Electronic Manufacturing",
+      "lastName": "Arnsby",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_GoniwO7FKS3JozmQuabywyjk-DNqE1mQheCywgyqDa8XvBM6m2QfLjHVp5qIdq7EidNjkVGEHKD_",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=61893102&authType=name&authToken=qNC-&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:pzSC"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/juFKNo81Zj"
+      },
+      "firstName": "Maria",
+      "headline": "Fund Distribution Services at Nordea Investment Management",
+      "id": "juFKNo81Zj",
+      "industry": "Banking",
+      "lastName": "Aronsson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm County, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_1C0R39Ohd4Nj9WnUATOk3Najdj8yq7cUl_Ik3Nah94NuIIhRxkfc7qsaFPh_Be9B-TjLa1p1hewa",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=48858309&authType=name&authToken=pzSC&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:zM8-"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/s9blGEj78Y"
+      },
+      "firstName": "Cleber",
+      "headline": "GIS/GIT Engineer Developer at City of Malmo SBK",
+      "id": "s9blGEj78Y",
+      "industry": "Information Technology and Services",
+      "lastName": "Arruda",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_2bYEOgw0LcrEzW_ha3xvO0WY51vbv2-haiEzO0VisvTBEeL88TmQKxmDwOzZ9I12DkyNAZeHmlfk",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=181332343&authType=name&authToken=zM8-&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:pPD3"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/LSz43gHysJ"
+      },
+      "firstName": "Ebba",
+      "headline": "Chief Communications Officer & Business Development Director & Partner Aqilles Invest AB",
+      "id": "LSz43gHysJ",
+      "industry": "Venture Capital & Private Equity",
+      "lastName": "Åsly Fåhraeus",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Skane County, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_oCf8SHdOM40H9htEH8OPSEWpvRHIq5CEehR0SEw2EOpRI3voQk0uio0GUveqBC_QITDYCDz0E7Bm",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=538967&authType=name&authToken=pPD3&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:7w-L"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/lN5PhHMXHV"
+      },
+      "firstName": "Carl",
+      "headline": "Student at Lunds tekniska högskola",
+      "id": "lN5PhHMXHV",
+      "industry": "Mechanical or Industrial Engineering",
+      "lastName": "Aspernäs",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=153133253&authType=name&authToken=7w-L&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:LjGl"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/hEAFUnYbli"
+      },
+      "firstName": "Kalle",
+      "headline": "Professor",
+      "id": "hEAFUnYbli",
+      "industry": "Research",
+      "lastName": "Åström",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_yrLwHnGh_7KarVSoOl9ZHzkfiu52pMpoOcAqHzLxpolpijIEr9zbQvllDTL1xYj6g1FvFtcuG0rL",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=14359701&authType=name&authToken=LjGl&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:wXkZ"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/AGKWjy5LkC"
+      },
+      "firstName": "Niklas",
+      "headline": "IT consultant at Netlight Consulting",
+      "id": "AGKWjy5LkC",
+      "industry": "Information Technology and Services",
+      "lastName": "Åström",
+      "location": {
+        "country": {"code": "de"},
+        "name": "Munich Area, Germany"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_6H28ifONVJHRFbPNX2DxiuDR9MgcLXGNkf40iugHd0WFV8zqEapuS2d64NjHQiiZFIaY2I_cKlOI",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=19232568&authType=name&authToken=wXkZ&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:nQwd"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/P_mqomIlHc"
+      },
+      "firstName": "Susanna",
+      "headline": "Property and land developer (exploateringsingenjör), Uppsala kommun",
+      "id": "P_mqomIlHc",
+      "industry": "Real Estate",
+      "lastName": "Åström",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Uppsala, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=53166443&authType=name&authToken=nQwd&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:_GsJ"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/S0AO3ssyi5"
+      },
+      "firstName": "Simon",
+      "headline": "Consultant at Netlight Consulting AB",
+      "id": "S0AO3ssyi5",
+      "industry": "Computer Software",
+      "lastName": "Aunér",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm County, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_G13YmJirYxCvjnbIGNP3mU8rYyFZAnBI8qz3mU3DTM1ea-8wmzAthRviK-bbtlnFiri8Tp1HLfKa",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=44818517&authType=name&authToken=_GsJ&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:z_Cz"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/eiMyxQZpNw"
+      },
+      "firstName": "Martina",
+      "headline": "Product manager at Atria Foodservice",
+      "id": "eiMyxQZpNw",
+      "industry": "Food Production",
+      "lastName": "Avasoo",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Helsingborg, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_6X3m4aatthSnvn28Q_rg4u2ttQ4czng8XizA4ugmS52Fo-EhEGACn2d8yaZHnlyuFFiKcIfhxbpn",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=81434792&authType=name&authToken=z_Cz&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:zcN3"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/HsNl_kvwUD"
+      },
+      "firstName": "Nils",
+      "headline": "Yield Manager at Clear Channel Outdoor",
+      "id": "HsNl_kvwUD",
+      "industry": "Marketing and Advertising",
+      "lastName": "Axiö",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_r9mLMBljkGrAtEO7-K29MznPX55lrEa7-tssMzKfRilTfaJfyrYdcvX3oeLmPSf_AzuRntaT7Azl",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=88515737&authType=name&authToken=zcN3&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:LaMp"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/h5Sw-R6KO1"
+      },
+      "firstName": "Ismail",
+      "headline": "Attorney at Law, Master of Laws in Maritime Law, Member of Istanbul Bar Association",
+      "id": "h5Sw-R6KO1",
+      "industry": "Legal Services",
+      "lastName": "Aydin",
+      "location": {
+        "country": {"code": "tr"},
+        "name": "Istanbul, Turkey"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_V5_s-LsY2AJangXyZX8W-QR021a394qyZCBL-QR71vVAdyipn_Pny67TGOmOv0zKRQTkj3dO6uLx",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=87951038&authType=name&authToken=LaMp&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:CfMs"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/Y_atirDzfz"
+      },
+      "firstName": "Atra",
+      "headline": "Consultant",
+      "id": "Y_atirDzfz",
+      "industry": "Information Technology and Services",
+      "lastName": "Azami",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm County, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_fo2QEjZHQDKnkamXSwyvEYZz6Hn6QHmXDm4JEYJHJmC9MuMk_2pEXOS6HL9JLf7HadaZ5JbLJB6J",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=174756182&authType=name&authToken=CfMs&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:CyOo"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/BgaLEoMYOL"
+      },
+      "firstName": "Anders",
+      "headline": "Senior Consultant at Netlight Consulting AB",
+      "id": "BgaLEoMYOL",
+      "industry": "Information Technology and Services",
+      "lastName": "Bäck",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_HOKl9dqXg5IL_rs0oYlm9whM0bmeiPE0oska9wbXh3sZpcgxk48gZI1oAEaB8Nw1djt7J2JMDA1t",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=52065816&authType=name&authToken=CyOo&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:Fgc-"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/V-4ryI9sgv"
+      },
+      "firstName": "Dovile",
+      "headline": "Graduate Trainee at UBS",
+      "id": "V-4ryI9sgv",
+      "industry": "Financial Services",
+      "lastName": "Bandzaite",
+      "location": {
+        "country": {"code": "ch"},
+        "name": "Switzerland"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_xtJM_NX8esrCYEXJgKUE_95hHMCDOfvJjrD6_cbrcsnj3wCM1NdvDB1O6AG-gHNzYlRbuKv8oL0u",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=48722199&authType=name&authToken=Fgc-&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:FnID"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/YXBP-4j8fB"
+      },
+      "firstName": "Leo",
+      "headline": "Software Engineer at AlgoTrim AB",
+      "id": "YXBP-4j8fB",
+      "industry": "Computer Software",
+      "lastName": "Barnes",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=60429592&authType=name&authToken=FnID&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:EvF8"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/r4_7f-cxN0"
+      },
+      "firstName": "Maja",
+      "headline": "M.Sc. Student in Mechanical Engineering",
+      "id": "r4_7f-cxN0",
+      "industry": "Mechanical or Industrial Engineering",
+      "lastName": "Bärring",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_oCf8SdVyzgsXq6CEeiSPSE4AvZHIq5CEH6R0SEw2EOpRI3voQk0uio0GUveqBC_QITDYCDvLPaqm",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=180971586&authType=name&authToken=EvF8&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:wanD"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/Q_Tj93zVGa"
+      },
+      "firstName": "Lennart",
+      "headline": "Konceptutveckling och försäljning.    at Ahrens & Partners",
+      "id": "Q_Tj93zVGa",
+      "industry": "Education Management",
+      "lastName": "Bengtsson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_VoW0f8oIM023okqX4Ss8fiIkUxVTokqX4mg8fisMkJalzhikn2M1T_aBvtsYW_zHRdw3hkXGhUOf",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=40487789&authType=name&authToken=wanD&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:Nhs_"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/sYqIXn6LZt"
+      },
+      "firstName": "Rasmus",
+      "headline": "Founder & Owner at Social Solutions AB",
+      "id": "sYqIXn6LZt",
+      "industry": "Computer Software",
+      "lastName": "Bengtsson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_5P24iorjw0JByI94FqybieixIMuRKe94bN4bie3aqsZI723ZdvpqSHvhLA2X17cqkKa62fxf4LBP",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=24905945&authType=name&authToken=Nhs_&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:sVfd"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/QFVQvHXU8u"
+      },
+      "firstName": "Rikard",
+      "headline": "Teknisk konsult på Combine",
+      "id": "QFVQvHXU8u",
+      "industry": "Automotive",
+      "lastName": "Bengtsson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=180591281&authType=name&authToken=sVfd&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:AqDq"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/lhyXzk1I9Q"
+      },
+      "firstName": "Magnus Örn",
+      "headline": "CEO at Revibe",
+      "id": "lhyXzk1I9Q",
+      "industry": "Computer Software",
+      "lastName": "Berg",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_bIomhmgFRYUJHk8zduslh2ObcUOqekAz5WOAh2pUHZoXBh6vIDVCmuevJ1YII_rJQHHKfwaxjeJm",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=147584252&authType=name&authToken=AqDq&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:B9Tm"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/Oo-aWJtTH8"
+      },
+      "firstName": "Stefan",
+      "headline": "Owner, Nordiska Kvalitetspooler AB",
+      "id": "Oo-aWJtTH8",
+      "industry": "Health, Wellness and Fitness",
+      "lastName": "Berg",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Gavle, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_n2b0MbSQgTO2ocM7NSN2MXOwg_WpEc47NIP8MLfZCLg2vPffVoB1c5UnPmdidrJ_Bf53nCAQrcBG",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=142451929&authType=name&authToken=B9Tm&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:9Rfx"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/KPWiNBAgH8"
+      },
+      "firstName": "Lisa",
+      "headline": "Project Manager E.ON Gateway at E.ON",
+      "id": "KPWiNBAgH8",
+      "industry": "Civil Engineering",
+      "lastName": "Berggren",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_Dr__gRbylB9JKti2Sn1pgMC-lc5WrNi2fNBpgML7mllMfrquT9P71JlTxVLnPPGh21TgtOc3Y1v6",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=12210014&authType=name&authToken=9Rfx&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:tAHG"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/6F44t125kL"
+      },
+      "firstName": "Kristoffer",
+      "headline": "Student",
+      "id": "6F44t125kL",
+      "industry": "Civil Engineering",
+      "lastName": "Berglind",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_73E_PZs7N1cbsi-0SLMrPVW3qPCwZL_0DhYpPRogIKnUbTNxiFs7jUYPVRGNRGC1mGegyy4cwrUC",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=70450517&authType=name&authToken=tAHG&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:7RHS"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/KKze1Uv1A5"
+      },
+      "firstName": "Johan",
+      "headline": "Founder & Senior Analyst at The Masterclass Network",
+      "id": "KKze1Uv1A5",
+      "industry": "Market Research",
+      "lastName": "Berglund",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=18734898&authType=name&authToken=7RHS&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:Be2f"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/fFGaaQFinP"
+      },
+      "firstName": "Marcus",
+      "headline": "Backend / Frontend developer at Lendo AB",
+      "id": "fFGaaQFinP",
+      "industry": "Computer Software",
+      "lastName": "Bergman",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_y9lKkl9lYoGhtBWBpzCik1qjpdrhKlHBYA5fk1zCi7Xr7z0crrTyoPTu-XK01ndUgzPmwNIj0pPt",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=7990548&authType=name&authToken=Be2f&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:A415"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/kPuEvLpbyx"
+      },
+      "firstName": "Marcus",
+      "headline": "IT Consultant at Netlight Consulting AB",
+      "id": "kPuEvLpbyx",
+      "industry": "Medical Devices",
+      "lastName": "Berner",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_SmdaAVEH9-BZo83gDdWjAMEdNAheHLKgfWjlAMwVwBqZcTbj3eJGxJ0qsp8BwGlluSIrOOv8Fkhn",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=54186305&authType=name&authToken=A415&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:VhZY"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/QUbV1mMhVp"
+      },
+      "firstName": "Amanda",
+      "headline": "Consultant at Roland Berger Strategy Consultants",
+      "id": "QUbV1mMhVp",
+      "industry": "Management Consulting",
+      "lastName": "Berninger",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_fquK8pLjMYGW15zqDca78xv-M4KQ15kqSzZf8YqaQYkn23PN_-yyaO8hBzrMKC54acmm7JQIPGTQ",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=138624222&authType=name&authToken=VhZY&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:exQE"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/rT4m77-xaq"
+      },
+      "firstName": "Richard",
+      "headline": "Service-/Project Manager at HNA Storköksservice",
+      "id": "rT4m77-xaq",
+      "industry": "Utilities",
+      "lastName": "Bertilsson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Skane County, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_ByD7X6tn42WOT87VvZpKXkTzqu7O3QxVzUJrX58IIoUaOGesRsj_ELqLVTf3CTY9nxflIGOh2yD5",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=6745078&authType=name&authToken=exQE&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:Fnfh"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/G7YJUJRg1S"
+      },
+      "firstName": "Caroline",
+      "headline": "Netlight Consultant",
+      "id": "G7YJUJRg1S",
+      "industry": "Computer Software",
+      "lastName": "Bild",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_gPLYktkaOWNSyzoc1z93krNCYflmpzUcxcA3krFxTW5YiluBAvztoKPlKGAlx-sRyKF8wBJnxCAD",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=6118766&authType=name&authToken=Fnfh&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:WwDK"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/oXGnBE2jQi"
+      },
+      "firstName": "Johan",
+      "headline": "IT management consultant at Netlight",
+      "id": "oXGnBE2jQi",
+      "industry": "Information Technology and Services",
+      "lastName": "Billgren",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_cCVuh_manZ2Y4bizvQR1hhYC9OO0ZGtzv5a1hhaldZofbQ5vUko8m8sx41YhRLPJ9T4tfbyGCV2v",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=65153549&authType=name&authToken=WwDK&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:kCUp"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/RYmY-40NTr"
+      },
+      "firstName": "Ulf",
+      "headline": "kommunalråd at Trelleborgs kommun",
+      "id": "RYmY-40NTr",
+      "industry": "Political Organization",
+      "lastName": "Bingsgård",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Trelleborg, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_M5umg64lNqsSnLK2MboAg5EONAd3nLA2RFZAgkRawqjAWT6uz_yC1X7hsxWOzGrhZQmKtidHmnmJ",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=13834803&authType=name&authToken=kCUp&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:xgsE"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/RdGobI210K"
+      },
+      "firstName": "Christian",
+      "headline": "Project Manager Integrated Stores Nordics",
+      "id": "RdGobI210K",
+      "industry": "Chemicals",
+      "lastName": "Bjärntoft",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_GNQk24GgGR9npsAdCq5B2UPhC4kNYJ3dhrtR2UlggYKkTg9WmtneCRLPuzXwjOhLiBksipiST0Ku",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=15324627&authType=name&authToken=xgsE&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:uInf"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/n7bWgVwO14"
+      },
+      "firstName": "Carl Erik",
+      "headline": "Venture Manager at Serendipity Innovations",
+      "id": "n7bWgVwO14",
+      "industry": "Venture Capital & Private Equity",
+      "lastName": "Björkegren",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_Pk_hA9uY-B-14BtgjT3PAvy1rN8AqqigA6BxANg2flN3IKqj0CP2xqdGOVhaB1GltbTOO17woagB",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=36488406&authType=name&authToken=uInf&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:jn8g"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/kyf7A56CZL"
+      },
+      "firstName": "Sebastian",
+      "headline": "Head of UX at Memoto",
+      "id": "kyf7A56CZL",
+      "industry": "Internet",
+      "lastName": "Björkelid",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_Lw2NlI7zdly6LDFpL2Ywlej9Icf9LeFpbu4IlexHq-R6V2ryWSpZ0HI6LM7dQ76rXeaEYf3hGX6H",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=33128615&authType=name&authToken=jn8g&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:n-qt"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/MbKwL92MKp"
+      },
+      "firstName": "Lise-Lotte",
+      "headline": "Redovisningskonsult på Infoduction Redovisning AB",
+      "id": "MbKwL92MKp",
+      "industry": "Accounting",
+      "lastName": "Björkholdt",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_M5umgFd0n-fS9LK2Ub7AgkwANAd3nLA2RkZAgkRawqjAWT6uz_yC1X7hsxWOzGrhZQmKti539pyJ",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=54300915&authType=name&authToken=n-qt&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:grrP"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/6wHRAhBSyO"
+      },
+      "firstName": "Johan",
+      "headline": "Manager at Netlight Consulting AB",
+      "id": "6wHRAhBSyO",
+      "industry": "Computer Software",
+      "lastName": "Bjurling",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_Rm-zu_HQ7jyhQYNkUu36uhV9SUUfXjkkM76EuhHQtY70RMPXBeGJG8ye_zRrbV5eVSrI_bn69AKd",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=5319221&authType=name&authToken=grrP&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:dQ2O"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/0VhShtWIZN"
+      },
+      "firstName": "Lina",
+      "headline": "Managing Director and Founder of the nanny agency Barnvaktis",
+      "id": "0VhShtWIZN",
+      "industry": "Human Resources",
+      "lastName": "Blanking",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_DjKFeZFv_7-ehM2ISOlNeRkZiEbWCxSI7xkZeV5bp7PMgRswTR8I6sAWDXFn3ZuF2OtJbgcTwPiW",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=7596126&authType=name&authToken=dQ2O&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:Zmb0"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/V-aAIDLALi"
+      },
+      "firstName": "Tommy",
+      "headline": "Software Architect at Objektfabriken",
+      "id": "V-aAIDLALi",
+      "industry": "Computer Software",
+      "lastName": "Blomberg",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_gyqUoPBXuITaDgIL1MzHoAFIuaqaSgsL0ghXorQnPIhOtJS5AsXBkK-ZC8NAasUdyx95LBZrhEw7",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=12733219&authType=name&authToken=Zmb0&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:IGah"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/lMIGxvkcV4"
+      },
+      "firstName": "Tor",
+      "headline": "Strategic Business Development at Ericsson",
+      "id": "lMIGxvkcV4",
+      "industry": "Telecommunications",
+      "lastName": "Blomdell",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_QoM0AdpFUlWcE3zjXfZ2AEZXUtS9oCNjkmS8AE0vkqM6z6_go2W1xowUvxDdW5vAbdU3ODDMGDHc",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=42128572&authType=name&authToken=IGah&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:0xi7"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/Mr25X2aykO"
+      },
+      "firstName": "Morten",
+      "headline": "Web strategist at Propeople",
+      "id": "Mr25X2aykO",
+      "industry": "Marketing and Advertising",
+      "lastName": "Blumensaadt",
+      "location": {
+        "country": {"code": "dk"},
+        "name": "Copenhagen Area, Denmark"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_QQ0tAd0KVnH6zLQj6h2DAwYrZAS9BiFjkXIDAE0hb-M6ebrgo8fYxowanMDdqX6Ab5juOD3z5KZT",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=2345509&authType=name&authToken=0xi7&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:3k-z"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/5GssYXidmO"
+      },
+      "firstName": "Hans",
+      "headline": "Student på Lunds tekniska högskola",
+      "id": "5GssYXidmO",
+      "industry": "Research",
+      "lastName": "Bockgård",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_u1nHT0q78Jb6Ay3n2P6cTyXaCj-Ej0KnmBCBTyklgU6sGUb9hzQXfprxurtvY4lsSrN9mRV26WBr",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=171595358&authType=name&authToken=3k-z&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:zQSb"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/RCCcNRDsOn"
+      },
+      "firstName": "André",
+      "headline": "Co-Founder at LUSIC",
+      "id": "RCCcNRDsOn",
+      "industry": "Professional Training & Coaching",
+      "lastName": "Bogsjö",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_8D2tXJpnJWlnekwsCwfSXsp9REGVkkwsGo4DXs7wX79oUhyV2IpYEVR5zXCLF_EnTaauIjAJ4cMp",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=40166649&authType=name&authToken=zQSb&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:-sxD"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/BsKnyihklv"
+      },
+      "firstName": "Johanna",
+      "headline": "PhD Student at K.U Leuven",
+      "id": "BsKnyihklv",
+      "industry": "Biotechnology",
+      "lastName": "Bolander",
+      "location": {
+        "country": {"code": "be"},
+        "name": "Brussels Area, Belgium"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_in1UQZNADe1VAMEZ_NGXQRCpfS39lxsZTqFXQR1hrIz6mRS47KiBHUba38Td-ZUNGvA5Wy3B5ykZ",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=45524274&authType=name&authToken=-sxD&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:xj1T"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/reO-Twodkk"
+      },
+      "firstName": "Anders",
+      "headline": "Laboratory Engineer at Arc Aroma Pure AB",
+      "id": "reO-Twodkk",
+      "industry": "Biotechnology",
+      "lastName": "Boman",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_-HOmp1mVB9C1FF3iKemlpKxZclNt53AiKEoAplgLHN8Cs56_YaaCtAdIJ0qS66rf1IpK19frbDYa",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=85590129&authType=name&authToken=xj1T&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:yUnw"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/1RG7uktQLY"
+      },
+      "firstName": "Lisa",
+      "headline": "Utredare at Sveriges Ingenjörer",
+      "id": "1RG7uktQLY",
+      "industry": "Political Organization",
+      "lastName": "Bondesson",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_k14DPd8h9-w9gGT0ovs-PEtSnrmJgTl06l2tPwCKWzsdCLQxHzH3jI9YZYa6OQK15rV1y2r-7T9o",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=4977545&authType=name&authToken=yUnw&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:U-de"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/0BPfQ2ixKX"
+      },
+      "firstName": "Joanna",
+      "headline": "Commercial Development at OneMed Holding AB",
+      "id": "0BPfQ2ixKX",
+      "industry": "Hospital & Health Care",
+      "lastName": "Boquist",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_FiVC97mTBFoWUkD1W5dj92Y2cXOJRCD1Lbaj92mlHCodX6VPwLomZuVxJdY6Z5206h4yJwKOhtCP",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=6997363&authType=name&authToken=U-de&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:bMqM"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/E8BfzK-Oi1"
+      },
+      "firstName": "Maximilian",
+      "headline": "Talent Search & Equality Driver at Netlight Consulting GmbH",
+      "id": "E8BfzK-Oi1",
+      "industry": "Information Technology and Services",
+      "lastName": "Born",
+      "location": {
+        "country": {"code": "de"},
+        "name": "Munich Area, Germany"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_eOkdZfvHa_yXS0O3oj5VZSvkGiRd7sO3EsKnZSXJj5fJKOdTX4NL9DKc2aU92g0DWjQcBoVohOt5",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=183593936&authType=name&authToken=bMqM&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:w6qh"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/B_n80uhIYy"
+      },
+      "firstName": "Joel",
+      "headline": "World traveller",
+      "id": "B_n80uhIYy",
+      "industry": "Civil Engineering",
+      "lastName": "Bosrup",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_ZgfI5G5W5fHST22zsYOq58n9L2Y7_WgzV0RN5T5WVdExyDEvqU0FI3AbICOKhmyJMYDzE6RIZigZ",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=20915059&authType=name&authToken=w6qh&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:JRJZ"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/Cw5Kd_Lngr"
+      },
+      "firstName": "Ulla",
+      "headline": "Manager, Regional Affairs at Lund University",
+      "id": "Cw5Kd_Lngr",
+      "industry": "Research",
+      "lastName": "Boström Hjorth",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_bNwbMI3aQ80RpH27F1dqMWGhQ5WNYw27L9x4MWljM8gkTfRfItUwcdL1eIdwjuD_QBWMna7eClH5",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=50741064&authType=name&authToken=JRJZ&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:Dij1"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/AdvU0rTiI0"
+      },
+      "firstName": "Conor",
+      "headline": "Solutions Architect at Klarna",
+      "id": "AdvU0rTiI0",
+      "industry": "Internet",
+      "lastName": "Boyd",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm County, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_ZgfI5GG4duVui7SzVVpN5TCnL7Y7_WgzsyRN5T5WVdExyDEvqU0FI3AbICOKhmyJMYDzE6URpFaZ",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=2197072&authType=name&authToken=Dij1&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:nV3z"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/aYOpFyyPVS"
+      },
+      "firstName": "Kajsa",
+      "headline": "Master Student Industrial Engineering and Management with Technology Management",
+      "id": "aYOpFyyPVS",
+      "industry": "Higher Education",
+      "lastName": "Brange",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_xxsvAN35ennS2fkjg4HQAckWHc3DufLjgRmoAcFqclzjPw-g1MEMxBPV6VT-fHXAYyZwOKJx5F4u",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=94204837&authType=name&authToken=nV3z&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:n0-8"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/duOvfVMeKt"
+      },
+      "firstName": "Ellinor",
+      "headline": "Consultant at Netlight Consulting AB",
+      "id": "duOvfVMeKt",
+      "industry": "Management Consulting",
+      "lastName": "Bråsjö",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Stockholm, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_-zC9rqPO79L0lVN0-PhWrB_t7qCtlVL0KBnWrBAuKAnCmY-xY1tVYc5CTsGS-jX1198H0rfq6qnS",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=3736049&authType=name&authToken=n0-8&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:FBzh"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/USkIJru0Uk"
+      },
+      "firstName": "Ebba",
+      "headline": "Research Assistant at Lund University Centre for Sustainability Studies (LUCSUS)",
+      "id": "USkIJru0Uk",
+      "industry": "Research",
+      "lastName": "Brink",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_Y7bJr1Ik7tzCoRL1YHQ6rKd5SltfERN1pePQrleZtNQ0vx_P-WBzYApn_0-rdpv0xu5F099jeFi-",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=91463035&authType=name&authToken=FBzh&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:Vdxw"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/IIiybURTZU"
+      },
+      "firstName": "Lina",
+      "headline": "Yrkesverksam inom Informationsteknikbranschen",
+      "id": "IIiybURTZU",
+      "industry": "Information Technology and Services",
+      "lastName": "Brodén",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=157496476&authType=name&authToken=Vdxw&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:Bm6t"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/-Ds_-M5kz7"
+      },
+      "firstName": "Lova",
+      "headline": "--",
+      "id": "-Ds_-M5kz7",
+      "lastName": "Brodin",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_N0TLALiR_-dx_j1j9RK9AQ1UTND03RCj9gvsAbCIY-JfOxvg4JldxF9L7MShCp_Avp_ROhpNVMAY",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=152617676&authType=name&authToken=Bm6t&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:kNr_"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/FJ2QmQgj01"
+      },
+      "firstName": "Sara",
+      "headline": "Software Engineer at TomTom",
+      "id": "FJ2QmQgj01",
+      "industry": "Computer Software",
+      "lastName": "Brodin",
+      "location": {
+        "country": {"code": "de"},
+        "name": "Berlin Area, Germany"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_T_Ic9xIOLk6eVWI13XwX9juGdb-ZsoI1i30e9pDY9C6e5mpPD5RRZyMKFdtbJDo088ddJUP0Joay",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=11346411&authType=name&authToken=kNr_&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:IqHw"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/lqNl_64WHE"
+      },
+      "firstName": "Fredrik",
+      "headline": "Embedded Systems Consultant at Brödje Consulting AB",
+      "id": "lqNl_64WHE",
+      "industry": "Electrical/Electronic Manufacturing",
+      "lastName": "Brödje",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Lund, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_OYjMBBqVobNYhfeppyOoBqbBH3imCuJpypd6BqbFcbcYgHaytZDvJN1d62_l3w4r0g0bZPMlq560",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=10744897&authType=name&authToken=IqHw&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:OVw1"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/bUyEu-YmyU"
+      },
+      "firstName": "Peter",
+      "headline": "Onlinechef / Head of online department at FDM",
+      "id": "bUyEu-YmyU",
+      "industry": "Internet",
+      "lastName": "Bruhn",
+      "location": {
+        "country": {"code": "dk"},
+        "name": "Copenhagen Area, Denmark"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_zVbmG3lElZsjaNr9cONlGC8eAy0rucl9BRPAGC1ZaMIhPPQnMpBCuGbn0-xffrKVqJ5KDLS47pD1",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=2147257&authType=name&authToken=OVw1&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:kVtp"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/HkEcqh3P1y"
+      },
+      "firstName": "Thomas",
+      "headline": "PR Consultant at Aspekta AB",
+      "id": "HkEcqh3P1y",
+      "industry": "Public Relations and Communications",
+      "lastName": "Brunk",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_O-y3pB8gvc3i0hK7YN7YpzLpzBLm1_37y1eYpqbGotAY2F9ftquDtN12RJ5lKkh_0AY01PMyvF7E",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=4058319&authType=name&authToken=kVtp&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:DqOG"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/omcoLxBm7o"
+      },
+      "firstName": "Henrik",
+      "headline": "CEO Buccio Consulting",
+      "id": "omcoLxBm7o",
+      "industry": "Management Consulting",
+      "lastName": "Buchhave",
+      "location": {
+        "country": {"code": "se"},
+        "name": "Malmo, Sweden"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_H1YHLakgXdEHAdSNoN2ULSkKk7jelupNEqEBLSF8UEdZmHIqkzmXwDPmE3gB-wjZdry9oozA0Uik",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=1132752&authType=name&authToken=DqOG&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:qTLS"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/aaiL3KOp9w"
+      },
+      "firstName": "Kaja",
+      "headline": "Consultant at Netlight AS",
+      "id": "aaiL3KOp9w",
+      "industry": "Information Technology and Services",
+      "lastName": "Bye Svartveit",
+      "location": {
+        "country": {"code": "no"},
+        "name": "Oslo Area, Norway"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_goVSNNJqs3B-ebpjxwjYN9ZHnLTGEGpj0ea-N9sqW6v-vQIgA2oTVnaVZS3jdLjAyd4PUlX2ARmd",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=3434680&authType=name&authToken=qTLS&trk=api*a270582*s278299*"}
+    },
+    {
+      "apiStandardProfileRequest": {
+        "headers": {
+          "_total": 1,
+          "values": [{
+            "name": "x-li-auth-token",
+            "value": "name:veOA"
+          }]
+        },
+        "url": "http://api.linkedin.com/v1/people/36gXI3wRo_"
+      },
+      "firstName": "Johan",
+      "headline": "Manager at Netlight Consulting",
+      "id": "36gXI3wRo_",
+      "industry": "Computer Software",
+      "lastName": "Byttner",
+      "location": {
+        "country": {"code": "de"},
+        "name": "Munich Area, Germany"
+      },
+      "pictureUrl": "http://m3.licdn.com/mpr/mprx/0_eOkdZa_kG626fy73oRB9ZSLoGiRd7sO3oJKnZSXJj5fJKOdTX4NL9DKc2aU92g0DWjQcBoVcxgQ5",
+      "siteStandardProfileRequest": {"url": "http://www.linkedin.com/profile/view?id=3626695&authType=name&authToken=veOA&trk=api*a270582*s278299*"}
+    }
+  ]
+}
