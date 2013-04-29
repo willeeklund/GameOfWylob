@@ -8,6 +8,20 @@ body {
     -moz-user-select: none;
     -o-user-select: none;
     user-select: none;
+    color: #262626;
+}
+
+/* Netlight style */
+h1, h2, h3,
+.nav-pills a,
+.linkedin_person b {
+    color: #36185f;
+}
+.nav-pills > .active > a,
+.nav-pills > .active > a:hover,
+.btn-primary, .btn-primary:hover {
+    background-color: #36185f;
+    background-image: none;
 }
 
 #outer {
@@ -36,7 +50,8 @@ body {
 }
 
 .player.selected {
-    background-color: yellow;
+    color: #eceded;
+    background-color: #CC9933;
 }
 
 .player.selected .score {
@@ -85,6 +100,10 @@ form input[type=text] {
     position: relative;
     padding: 10px;
 }
+/*.message.alert.alert-info {
+    background-color: #36185f;
+    color: #CC9933;
+}*/
 .message .heading {
     font-size: 20px;
     min-height: 45px;
