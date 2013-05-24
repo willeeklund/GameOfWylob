@@ -5,14 +5,6 @@ Wylobs = new Meteor.Collection("wylobs");
 Messages = new Meteor.Collection("messages");
 Points = new Meteor.Collection("points");
 
-// Meteor.publish("userData", function () {
-//   return Meteor.users.find({fields: {'services': 1}});
-// });
-
-// Meteor.publish("allUserData", function () {
-//   return Meteor.users.find({}, {fields: {'services.facebook': 1}});
-// });
-
 Meteor.methods({
   getAccessToken : function() {
     try {
@@ -36,7 +28,7 @@ var success_prob = {
   '1': 0.5,
   '2': 0.5,
   '3': 0.5,
-  '4': 0.5
+  '4': 0.9
 };
 var points = {
   '1': 1,

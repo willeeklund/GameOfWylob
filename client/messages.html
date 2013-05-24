@@ -12,9 +12,17 @@
 </template>
 
 <template name="message">
-  <div class="message alert alert-{{ statusClass }}">
+  {{#if private_message}}
+    <div class="message alert alert-{{ statusClass }}">
+  {{/if}}
+  {{#unless private_message}}
+    <div class="message alert alert-public">
+  {{/unless}}
+
     <div class="heading">
-      {{ msg }}
+      <a href="{{ linkedin_url }}">
+        {{ msg }}
+      </a>
     </div>
     <img src="{{ ts_image }}" class="thumbnail ts_image">
     {{#if private_message}}
@@ -24,6 +32,12 @@
       <div class="tipped_by">
         <img src="{{ netlighter_image }}" class="thumbnail netlighter_image">
         Wylobbed by: {{ netlighter_name }}
+      </div>
+      <div class="plus_button">
+        <button>+1 this person</button>
+      </div>
+      <div class="plus_thanks" style="display: none;">
+        Thanks for your recommendation!
       </div>
     {{/unless}}
     <div class="timeago" abbr="{{ timestamp }}">{{ timestamp }}</div>

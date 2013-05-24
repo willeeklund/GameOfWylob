@@ -23,7 +23,15 @@ h1, h2, h3,
     background-color: #36185f;
     background-image: none;
 }
-
+/*
+.navbar_wrap {
+    position: fixed;
+    top: 0;
+}
+.tab-content {
+    margin-top: 30px;
+}
+*/
 #outer {
     width: 600px;
     margin: 0 auto;
@@ -100,6 +108,9 @@ form input[type=text] {
     position: relative;
     padding: 10px;
 }
+.message.alert-public {
+    background-color: white;
+}
 /*.message.alert.alert-info {
     background-color: #36185f;
     color: #CC9933;
@@ -151,4 +162,14 @@ input[name=name] {
 }
 .add_linkedin_form {
     margin-left: 0;
+}
+.toggle_add_netlighter_form {
+    position: relative;
+    top: 0px;
+}
+
+.spaceify_wrap {
+    margin-top: 100px;
+    clear: both;
+    display: inline-block;
 }

@@ -3,13 +3,13 @@
   <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-  <title>WYLOB</title>
+  <title>Game of WYLOB</title>
   <link rel="stylesheet" type="text/css" href="/css/bootstrap.css">
   <script type="text/javascript" src="https://platform.linkedin.com/in.js">
     api_key: eu4dqocakhdy
     scope: r_basicprofile r_network
     onLoad: onLinkedInLoad
-    authorize: true
+    authorize: false
   </script>
   <script type="text/javascript">
     // 2. Runs when the JavaScript framework is loaded
@@ -20,7 +20,7 @@
     // 2. Runs when the viewer has authenticated
     function onLinkedInAuth() {
       IN.API.Connections("me")
-        .params({"start": 0, "count": 100})
+        //.params({"start": 0, "count": 100})
         .result(displayConnections)
         .error(function (err) {
           console.error(err);
@@ -50,7 +50,7 @@
   {{> navbar}}
 
   <div class="tab-content">
-    <div class="tab-pane active" id="add">
+    <div class="tab-pane" id="add">
       <h2>Add Wylob</h2>
       <h3>Using LinkedIn connection</h3>
       {{> linkedin_connections}}
@@ -58,7 +58,7 @@
     <div class="tab-pane" id="feed">
       {{> messages}}
     </div>
-    <div class="tab-pane" id="highscore">
+    <div class="tab-pane active" id="highscore">
       <h2>Highscore</h2>
       {{> highscore}}
     </div>
@@ -67,6 +67,7 @@
 </body>
 
 <template name="navbar">
+<div class="navbar_wrap">
   <ul class="nav nav-pills">
   {{#each tabs}}
     <li class="{{ active }}">
@@ -74,6 +75,7 @@
     </li>
   {{/each}}
   </ul>
+</div>
   <!-- <li class="spaceify">
     <a href="#">Spaceify</a>
   </li> -->
@@ -91,6 +93,12 @@
     <input type="text" class="span4" name="name" value="" placeholder="Name">
     <input type="submit" id="submit" value="Add Netlighter" class="btn btn-primary">
   </form>
+
+    <button class="spaceify_wrap">
+      <a class="spaceify">
+      Spaceify your WYLOB!
+      </a>
+    </button>
 </template>
 
 

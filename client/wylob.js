@@ -8,9 +8,10 @@ Points = new Meteor.Collection("points");
 /**
  * Navbar & Routing
  */
-var navbarItems = [{link: "add", text: "Add Wylob", active: "active"},
-  {link: "feed", text: "Newsfeed"},
-  {link: "highscore", text: "Highscores"}
+var navbarItems = [
+  {link: "highscore", text: "Highscores", active: "active"},
+  {link: "add", text: "Add Wylob"},
+  {link: "feed", text: "Newsfeed"}
 //  {link: "all_wylobs", text: "All Wylobs"}
 ];
 Template.navbar.tabs = function () {
@@ -23,9 +24,6 @@ Template.navbar.events = {
   'click a': function (ev) {
     ev.preventDefault();
     Session.set('route', this.link);
-  },
-  'click .spaceify': function (ev) {
-    $("head").append('<link rel="stylesheet" type="text/css" href="geo-bootstrap/css/geo-bootstrap.css">');
   }
 }
 // Set simple routing
@@ -33,7 +31,7 @@ if (location.pathname != "/") {
   var path = location.pathname.substr(1);
   Session.set('route', path);
 } else {
-  Session.set('route', 'add');
+  Session.set('route', 'highscore');
 }
 
 /**
@@ -68,6 +66,9 @@ Template.highscore.events = {
     name = form.find("[name=name]").val();
     new_id = Netlighters.insert({name: name, score: 0});
     Session.set("selected_player", new_id);
+  },
+  'click .spaceify': function (ev) {
+    $("head").append('<link rel="stylesheet" type="text/css" href="geo-bootstrap/css/geo-bootstrap.css">');
   }
 };
 
@@ -334,6 +335,14 @@ Template.message.ts_image = function () {
   }
   return "/img/person_dummy.png";
 };
+Template.message.linkedin_url = function () {
+  var wylob_item = Wylobs.findOne(this.wylob_id);
+  console.log("wylob_item", wylob_item)
+  if (wylob_item && wylob_item.data && wylob_item.data.siteStandardProfileRequest && wylob_item.data.siteStandardProfileRequest.url) {
+    return wylob_item.data.siteStandardProfileRequest.url;
+  }
+  return "";
+};
 Template.message.netlighter_image = function () {
   var wylob_item = Wylobs.findOne(this.wylob_id);
   if (wylob_item && wylob_item.netlighter_id) {
@@ -361,3 +370,9 @@ Template.message.netlighter_name = function () {
   }
   return "Unknown";
 };
+Template.message.events = {
+  'click .plus_button': function (ev) {
+    console.log("click on +1 button!", $(ev.target).parent().find(".plus_thanks"));
+    $(ev.target).replaceWith("Thanks for your recommendation!");
+  }
+}
